@@ -94,6 +94,29 @@ def coerce_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     out = out.sort_values(["Well_Name", "Date"]).reset_index(drop=True)
     return out
 
+
+def dataframe_from_store(data) -> pd.DataFrame:
+    """Rebuild a cleaned DataFrame from serialized dcc.Store data."""
+
+    if not data:
+        return pd.DataFrame(columns=REQUIRED_COLS)
+
+    df = pd.DataFrame(data)
+    if df.empty:
+        return pd.DataFrame(columns=REQUIRED_COLS)
+
+    try:
+        return coerce_dataframe(df)
+    except ValueError:
+        # Fall back to lightweight parsing while preserving available rows.
+        df = standardize_columns(df)
+        for col in ["Latitude", "Longitude", "Depth_ft"]:
+            if col in df.columns:
+                df[col] = pd.to_numeric(df[col], errors="coerce")
+        if "Date" in df.columns:
+            df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
+        return df
+
 def read_default_csv():
     if os.path.exists(DEFAULT_CSV_PATH):
         try:
@@ -343,7 +366,7 @@ app.layout = dbc.Container([
     Input("data-store", "data"),
 )
 def refresh_markers(data):
-    df = pd.DataFrame(data) if data else pd.DataFrame(columns=REQUIRED_COLS)
+    df = dataframe_from_store(data)
     return build_markers(df), map_center(df)
 
 @app.callback(
@@ -351,7 +374,7 @@ def refresh_markers(data):
     Input("data-store", "data"),
 )
 def refresh_well_options(data):
-    df = pd.DataFrame(data) if data else pd.DataFrame(columns=REQUIRED_COLS)
+    df = dataframe_from_store(data)
     wells = sorted(df["Well_Name"].unique()) if not df.empty else []
     return [{"label": w, "value": w} for w in wells]
 
@@ -380,7 +403,7 @@ def marker_click_to_dropdown(n_clicks, ids):
     Input("well-select", "value"),
 )
 def update_time_graph(data, well):
-    df = pd.DataFrame(data) if data else pd.DataFrame(columns=REQUIRED_COLS)
+    df = dataframe_from_store(data)
     fig = fig_time_series(df, well)
 
     if not well or df.empty or fig is None or len(fig.data) == 0:
@@ -388,10 +411,14 @@ def update_time_graph(data, well):
 
     sdf = df[df["Well_Name"] == well].sort_values("Date")
     last = sdf.iloc[-1]
+    last_date = last["Date"]
+    if isinstance(last_date, str):
+        last_date = pd.to_datetime(last_date, errors="coerce")
+    date_display = last_date.strftime("%Y-%m-%d") if pd.notna(last_date) else str(last["Date"])
     meta = [
         html.Div([html.B("Well: "), html.Span(str(last["Well_Name"]))]),
         html.Div([html.B("Aquifer: "), html.Span(str(last["Aquifer"]))]),
-        html.Div([html.B("Date: "), html.Span(last["Date"].strftime("%Y-%m-%d"))]),
+        html.Div([html.B("Date: "), html.Span(date_display)]),
         html.Div([html.B("Method: "), html.Span(str(last["Method"]))]),
     ]
     return fig, meta, True
@@ -401,7 +428,7 @@ def update_time_graph(data, well):
     Input("data-store", "data"),
 )
 def update_aquifer_avg(data):
-    df = pd.DataFrame(data) if data else pd.DataFrame(columns=REQUIRED_COLS)
+    df = dataframe_from_store(data)
     return fig_aquifer_averages(df)
 
 
