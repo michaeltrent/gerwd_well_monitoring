@@ -1,33 +1,83 @@
 
-import base64
-import io
 import os
-from datetime import datetime
 
 import dash
-from dash import Dash, html, dcc, Input, Output, State, MATCH, ALL, ctx
+from dash import Dash, html, dcc, Input, Output, State, ALL, ctx
 import dash_bootstrap_components as dbc
 import dash_leaflet as dl
 import pandas as pd
 import plotly.graph_objects as go
 
 # --- Configuration ---
-DEFAULT_CSV_PATH = os.environ.get("GVW_CSV_PATH", "/mnt/data/well_data_df_10.07.2025.csv")
-AQUIFER_COLORS = {"Dawson": "#e74c3c", "Denver": "#3498db"}
+DEFAULT_CSV_PATH = os.environ.get(
+    "GVW_CSV_PATH",
+    os.path.join(os.path.dirname(__file__), "well_data_df_10.07.2025.csv"),
+)
+AQUIFER_COLORS = {"Dawson Arkose": "#e74c3c", "Denver Formation": "#3498db"}
 
 # --- Data utilities ---
 REQUIRED_COLS = ["Well_Name", "Latitude", "Longitude", "Aquifer", "Date", "Depth_ft", "Method"]
+ESSENTIAL_COLS = ["Well_Name", "Latitude", "Longitude", "Aquifer", "Date", "Depth_ft"]
+
+COLUMN_ALIASES = {
+    "well_name": "Well_Name",
+    "well": "Well_Name",
+    "local_aquafer": "Aquifer",
+    "local_aquifer": "Aquifer",
+    "aquifer": "Aquifer",
+    "phenomenontime": "Date",
+    "date": "Date",
+    "result": "Depth_ft",
+    "depth_ft": "Depth_ft",
+    "water level": "Depth_ft",
+    "resultmethod": "Method",
+    "method": "Method",
+    "latitude": "Latitude",
+    "lat": "Latitude",
+    "longitude": "Longitude",
+    "lon": "Longitude",
+    "long": "Longitude",
+}
+
+
+def standardize_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Rename common column variants to the expected schema."""
+
+    rename_map = {}
+    for col in df.columns:
+        key = str(col).strip()
+        lowered = key.lower()
+        if lowered.startswith("unnamed"):
+            continue
+        target = COLUMN_ALIASES.get(lowered)
+        if target:
+            rename_map[col] = target
+    out = df.rename(columns=rename_map)
+    out = out.loc[:, [c for c in out.columns if not str(c).lower().startswith("unnamed")]]
+
+    if "Method" not in out.columns:
+        out["Method"] = "Unknown"
+
+    return out
 
 def coerce_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     """Ensure types and required columns exist; return cleaned DataFrame."""
-    missing = [c for c in REQUIRED_COLS if c not in df.columns]
-    if missing:
-        raise ValueError(f"Missing required columns: {missing}. Found columns: {list(df.columns)}")
+    if df is None or df.empty:
+        return pd.DataFrame(columns=REQUIRED_COLS)
 
-    out = df.copy()
+    out = standardize_columns(df)
+
+    missing = [c for c in ESSENTIAL_COLS if c not in out.columns]
+    if missing:
+        raise ValueError(f"Missing required columns: {missing}. Found columns: {list(out.columns)}")
+
+    out = out.copy()
     # Strip whitespace in string columns
     for col in ["Well_Name", "Aquifer", "Method"]:
         out[col] = out[col].astype(str).str.strip()
+
+    if "Method" in out.columns:
+        out["Method"] = out["Method"].replace({"nan": "Unknown", "None": "Unknown"}).replace("", "Unknown")
 
     # Parse numerics
     out["Latitude"] = pd.to_numeric(out["Latitude"], errors="coerce")
@@ -54,20 +104,6 @@ def read_default_csv():
     # fallback to empty structure
     return pd.DataFrame(columns=REQUIRED_COLS)
 
-def parse_contents(contents, filename):
-    """Parse uploaded file contents into a DataFrame."""
-    content_type, content_string = contents.split(',')
-    decoded = base64.b64decode(content_string)
-    try:
-        if filename.lower().endswith('.csv'):
-            df = pd.read_csv(io.StringIO(decoded.decode('utf-8')))
-        elif filename.lower().endswith(('.xls', '.xlsx')):
-            df = pd.read_excel(io.BytesIO(decoded))
-        else:
-            raise ValueError("Unsupported file format. Please upload a CSV or Excel file.")
-        return coerce_dataframe(df)
-    except Exception as e:
-        raise ValueError(f"Error processing file '{filename}': {e}")
 
 # --- Build figures ---
 def fig_time_series(df: pd.DataFrame, well: str) -> go.Figure:
@@ -179,7 +215,10 @@ def build_markers(df: pd.DataFrame):
 def map_center(df: pd.DataFrame):
     if df.empty:
         return (39.545146, -104.820199)
-    return (df["Latitude"].mean(), df["Longitude"].mean())
+    coords = df.dropna(subset=["Latitude", "Longitude"])
+    if coords.empty:
+        return (39.545146, -104.820199)
+    return (coords["Latitude"].mean(), coords["Longitude"].mean())
 
 # --- App & Layout ---
 external_stylesheets = [dbc.themes.FLATLY]
@@ -187,8 +226,20 @@ app = Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server  # for gunicorn / production
 
 initial_df = read_default_csv()
+initial_records = initial_df.to_dict("records")
+initial_aquifers = (
+    sorted(initial_df["Aquifer"].dropna().unique()) if not initial_df.empty else []
+)
+
+if not initial_df.empty and initial_df["Date"].notna().any():
+    min_date = initial_df["Date"].min()
+    max_date = initial_df["Date"].max()
+else:
+    min_date = max_date = None
 
 app.layout = dbc.Container([
+    dcc.Store(id="data-store", data=initial_records),
+
     dbc.Row([
         dbc.Col([
             html.H2("🏞️ Grandview Estates Water Well Monitor", className="mt-3 mb-0"),
@@ -199,22 +250,30 @@ app.layout = dbc.Container([
     dbc.Row([
         dbc.Col([
             dbc.Card([
-                dbc.CardHeader("📤 Data — Upload CSV / Excel", className="fw-semibold"),
+                dbc.CardHeader("📁 Data Source", className="fw-semibold"),
                 dbc.CardBody([
-                    dcc.Upload(
-                        id="upload-data",
-                        children=html.Div(["Drag and drop or ", html.A("select a CSV/Excel file")]),
-                        style={
-                            "width": "100%", "height": "80px", "lineHeight": "80px",
-                            "borderWidth": "2px", "borderStyle": "dashed",
-                            "borderRadius": "8px", "textAlign": "center",
-                            "background": "#e3f2fd"
-                        },
-                        multiple=False
-                    ),
-                    html.Small("Expected columns: Well_Name, Latitude, Longitude, Aquifer, Date, Depth_ft, Method", className="text-muted"),
-                    html.Div(id="upload-status", className="mt-2"),
-                    dcc.Store(id="data-store", data=initial_df.to_dict("records")),
+                    html.P("Historical well measurements are loaded automatically from the bundled dataset."),
+                    html.Ul([
+                        html.Li(html.Span([html.B("File:"), f" {os.path.basename(DEFAULT_CSV_PATH)}"])),
+                        html.Li(html.Span([html.B("Records:"), f" {len(initial_df):,}" if not initial_df.empty else " 0"])),
+                        html.Li(
+                            html.Span([
+                                html.B("Aquifers:"),
+                                " " + ", ".join(initial_aquifers) if initial_aquifers else " N/A",
+                            ])
+                        ),
+                        html.Li(
+                            html.Span([
+                                html.B("Date Range:"),
+                                " "
+                                + (
+                                    f"{min_date.date()} → {max_date.date()}"
+                                    if min_date is not None and max_date is not None
+                                    else "N/A"
+                                ),
+                            ])
+                        ),
+                    ], className="mb-0"),
                 ])
             ])
         ], width=12)
@@ -274,32 +333,10 @@ app.layout = dbc.Container([
                 ])
             ])
         ], width=12)
-    ]),
-
-    html.Div(id="hidden-div")  # placeholder for pattern-matching inputs
+    ])
 ], fluid=True)
 
 # --- Callbacks ---
-@app.callback(
-    Output("upload-status", "children"),
-    Output("data-store", "data"),
-    Input("upload-data", "contents"),
-    State("upload-data", "filename"),
-    prevent_initial_call=True,
-)
-def on_upload(contents, filename):
-    if contents is None:
-        raise dash.exceptions.PreventUpdate
-    try:
-        df = parse_contents(contents, filename)
-        msg = dbc.Alert([
-            html.Span("Loaded "), html.B(filename), html.Span(f" — {len(df):,} rows")
-        ], color="success", className="mt-2")
-        return msg, df.to_dict("records")
-    except Exception as e:
-        msg = dbc.Alert(str(e), color="danger", className="mt-2")
-        return msg, dash.no_update
-
 @app.callback(
     Output("markers-layer", "children"),
     Output("map", "center"),
