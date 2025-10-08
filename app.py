@@ -5,8 +5,10 @@ import dash
 from dash import Dash, html, dcc, Input, Output, State, ALL, ctx
 import dash_bootstrap_components as dbc
 import dash_leaflet as dl
+import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
+from math import erfc, sqrt
 
 # --- Configuration ---
 DEFAULT_CSV_PATH = os.environ.get(
@@ -14,6 +16,20 @@ DEFAULT_CSV_PATH = os.environ.get(
     os.path.join(os.path.dirname(__file__), "well_data_df_10.07.2025.csv"),
 )
 AQUIFER_COLORS = {"Dawson Arkose": "#e74c3c", "Denver Formation": "#3498db"}
+
+
+def hex_to_rgba(hex_color: str, alpha: float) -> str:
+    """Convert a HEX color string to an rgba() string with the provided alpha."""
+
+    if not hex_color:
+        return f"rgba(102, 102, 102, {alpha})"
+    value = hex_color.lstrip("#")
+    if len(value) != 6:
+        return f"rgba(102, 102, 102, {alpha})"
+    r = int(value[0:2], 16)
+    g = int(value[2:4], 16)
+    b = int(value[4:6], 16)
+    return f"rgba({r}, {g}, {b}, {alpha})"
 
 # --- Data utilities ---
 REQUIRED_COLS = ["Well_Name", "Latitude", "Longitude", "Aquifer", "Date", "Depth_ft", "Method"]
@@ -128,6 +144,83 @@ def read_default_csv():
     return pd.DataFrame(columns=REQUIRED_COLS)
 
 
+# --- Statistics utilities ---
+def _normal_approx_pvalue(t_stat: float) -> float:
+    """Two-sided p-value using a normal approximation for large df."""
+
+    return 2 * 0.5 * erfc(abs(t_stat) / sqrt(2))
+
+
+def linear_regression_stats(x: np.ndarray, y: np.ndarray):
+    """Return slope/intercept stats for simple linear regression.
+
+    Parameters
+    ----------
+    x, y: array-like
+        Numeric vectors with matching length. NaN/inf values should be removed
+        prior to calling this function.
+
+    Returns
+    -------
+    dict | None
+        Keys include slope, intercept, r_squared, p_value, slope_stderr, and
+        y_hat for the provided x values. Returns None when computation is not
+        possible (e.g., fewer than two finite samples).
+    """
+
+    if x.size < 2 or y.size < 2:
+        return None
+
+    mask = np.isfinite(x) & np.isfinite(y)
+    if mask.sum() < 2:
+        return None
+
+    x = x[mask]
+    y = y[mask]
+
+    if x.size < 2:
+        return None
+
+    slope, intercept = np.polyfit(x, y, 1)
+    y_hat = slope * x + intercept
+    residuals = y - y_hat
+
+    ss_res = np.sum(residuals ** 2)
+    ss_tot = np.sum((y - y.mean()) ** 2)
+    r_squared = 1 - ss_res / ss_tot if ss_tot > 0 else 0.0
+
+    n = x.size
+    slope_stderr = np.nan
+    t_stat = np.nan
+    p_value = None
+
+    if n > 2:
+        s_err = np.sqrt(ss_res / (n - 2))
+        ssx = np.sum((x - x.mean()) ** 2)
+        if ssx > 0:
+            slope_stderr = s_err / np.sqrt(ssx)
+            if slope_stderr > 0:
+                t_stat = slope / slope_stderr
+                df = n - 2
+                try:
+                    from scipy import stats  # type: ignore
+
+                    p_value = 2 * stats.t.sf(np.abs(t_stat), df)
+                except Exception:
+                    p_value = _normal_approx_pvalue(t_stat)
+
+    return {
+        "slope": slope,
+        "intercept": intercept,
+        "r_squared": float(r_squared),
+        "p_value": p_value,
+        "slope_stderr": float(slope_stderr) if np.isfinite(slope_stderr) else None,
+        "t_stat": float(t_stat) if np.isfinite(t_stat) else None,
+        "y_hat": y_hat,
+        "x": x,
+    }
+
+
 # --- Build figures ---
 def fig_time_series(df: pd.DataFrame, well: str) -> go.Figure:
     if not well or df.empty:
@@ -149,6 +242,41 @@ def fig_time_series(df: pd.DataFrame, well: str) -> go.Figure:
         line=dict(width=3, color=color),
         marker=dict(size=8)
     ))
+
+    base_date = sdf["Date"].min()
+    x_days = (sdf["Date"] - base_date).dt.total_seconds() / 86400.0
+    y_depth = sdf["Depth_ft"].astype(float)
+    reg = linear_regression_stats(x_days.to_numpy(dtype=float), y_depth.to_numpy(dtype=float))
+
+    annotation_text = None
+    if reg:
+        trend_y = reg["slope"] * x_days + reg["intercept"]
+        fig.add_trace(go.Scatter(
+            x=sdf["Date"],
+            y=trend_y,
+            mode="lines",
+            name="Trend line",
+            line=dict(color=color, width=2, dash="dash")
+        ))
+
+        slope_daily = reg["slope"]
+        slope_yearly = slope_daily * 365.25
+        p_value = reg["p_value"]
+        significance = None
+        if p_value is not None:
+            significance = "Yes" if p_value < 0.05 else "No"
+
+        annotation_lines = [
+            f"Depth = {reg['intercept']:.2f} + {slope_daily:.4f} × days since {base_date.date()}",
+            f"R² = {reg['r_squared']:.3f}",
+            f"Slope ≈ {slope_yearly:.2f} ft/yr",
+        ]
+        if p_value is not None:
+            annotation_lines.append(f"Slope p = {p_value:.3g} → significant? {significance}")
+        else:
+            annotation_lines.append("Slope significance unavailable")
+        annotation_text = "<br>".join(annotation_lines)
+
     fig.update_layout(
         margin=dict(l=10, r=10, t=10, b=10),
         hovermode="x unified",
@@ -156,6 +284,22 @@ def fig_time_series(df: pd.DataFrame, well: str) -> go.Figure:
         xaxis_title="Date",
         yaxis_title="Depth to Water (feet)"
     )
+
+    if annotation_text:
+        fig.add_annotation(
+            xref="paper",
+            yref="paper",
+            x=0.01,
+            y=0.99,
+            xanchor="left",
+            yanchor="top",
+            text=annotation_text,
+            align="left",
+            font=dict(size=12),
+            bgcolor="rgba(255,255,255,0.7)",
+            bordercolor=color,
+            borderwidth=1,
+        )
     # Reverse Y so deeper water (bigger number) is plotted lower
     fig.update_yaxes(autorange="reversed")
     return fig
@@ -164,25 +308,65 @@ def fig_aquifer_averages(df: pd.DataFrame) -> go.Figure:
     if df.empty:
         return go.Figure()
 
-    g = (
-        df.groupby(["Date", "Aquifer"])["Depth_ft"]
-        .mean()
+    stats = (
+        df.groupby(["Aquifer", "Date"])["Depth_ft"]
+        .agg(mean="mean", std="std", count="count")
         .reset_index()
-        .pivot(index="Date", columns="Aquifer", values="Depth_ft")
-        .sort_index()
     )
+    stats = stats.sort_values(["Aquifer", "Date"])  # chronological for each aquifer
+    stats["sem"] = stats["std"].div(np.sqrt(stats["count"].replace(0, np.nan)))
+    stats["sem"] = stats["sem"].fillna(0)
 
     fig = go.Figure()
-    for aquifer in g.columns:
-        color = AQUIFER_COLORS.get(aquifer, None)
-        fig.add_trace(go.Scatter(
-            x=g.index,
-            y=g[aquifer],
-            mode="lines+markers",
-            name=f"{aquifer} Average",
-            line=dict(width=3, color=color) if color else dict(width=3),
-            marker=dict(size=7)
-        ))
+    for aquifer, group in stats.groupby("Aquifer"):
+        group = group.sort_values("Date")
+        color = AQUIFER_COLORS.get(aquifer, "#666666")
+
+        upper = group["mean"] + group["sem"]
+        lower = group["mean"] - group["sem"]
+        if group.shape[0] >= 2 and not (upper.equals(lower)):
+            fig.add_trace(
+                go.Scatter(
+                    x=pd.concat([group["Date"], group["Date"].iloc[::-1]]),
+                    y=pd.concat([upper, lower.iloc[::-1]]),
+                    fill="toself",
+                    fillcolor=hex_to_rgba(color, 0.18),
+                    line=dict(color="rgba(0,0,0,0)"),
+                    hoverinfo="skip",
+                    showlegend=False,
+                )
+            )
+
+        fig.add_trace(
+            go.Scatter(
+                x=group["Date"],
+                y=group["mean"],
+                mode="lines+markers",
+                name=f"{aquifer} Average",
+                line=dict(width=3, color=color),
+                marker=dict(size=7)
+            )
+        )
+
+        if group.shape[0] >= 2:
+            base_date = group["Date"].min()
+            x_days = (group["Date"] - base_date).dt.total_seconds() / 86400.0
+            reg = linear_regression_stats(
+                x_days.to_numpy(dtype=float),
+                group["mean"].to_numpy(dtype=float)
+            )
+            if reg:
+                trend = reg["slope"] * x_days + reg["intercept"]
+                fig.add_trace(
+                    go.Scatter(
+                        x=group["Date"],
+                        y=trend,
+                        mode="lines",
+                        name=f"{aquifer} Trend",
+                        line=dict(color=color, width=2, dash="dot")
+                    )
+                )
+
     fig.update_layout(
         margin=dict(l=10, r=10, t=10, b=10),
         hovermode="x unified",
@@ -415,12 +599,30 @@ def update_time_graph(data, well):
     if isinstance(last_date, str):
         last_date = pd.to_datetime(last_date, errors="coerce")
     date_display = last_date.strftime("%Y-%m-%d") if pd.notna(last_date) else str(last["Date"])
+
+    base_date = sdf["Date"].min()
+    x_days = (sdf["Date"] - base_date).dt.total_seconds() / 86400.0
+    reg = linear_regression_stats(
+        x_days.to_numpy(dtype=float),
+        sdf["Depth_ft"].astype(float).to_numpy(dtype=float)
+    )
+
     meta = [
         html.Div([html.B("Well: "), html.Span(str(last["Well_Name"]))]),
         html.Div([html.B("Aquifer: "), html.Span(str(last["Aquifer"]))]),
         html.Div([html.B("Date: "), html.Span(date_display)]),
         html.Div([html.B("Method: "), html.Span(str(last["Method"]))]),
     ]
+    if reg:
+        slope_yearly = reg["slope"] * 365.25
+        p_value = reg["p_value"]
+        significance = None
+        if p_value is not None:
+            significance = "Yes" if p_value < 0.05 else "No"
+        slope_text = f"{slope_yearly:.2f} ft/yr"
+        if p_value is not None:
+            slope_text += f" (p = {p_value:.3g}; significant? {significance})"
+        meta.append(html.Div([html.B("Trend: "), html.Span(slope_text)]))
     return fig, meta, True
 
 @app.callback(
