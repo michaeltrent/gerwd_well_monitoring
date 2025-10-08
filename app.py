@@ -308,8 +308,10 @@ def fig_aquifer_averages(df: pd.DataFrame) -> go.Figure:
     if df.empty:
         return go.Figure()
 
+    monthly = df.copy()
+    monthly["Date"] = monthly["Date"].dt.to_period("M").dt.to_timestamp()
     stats = (
-        df.groupby(["Aquifer", "Date"])["Depth_ft"]
+        monthly.groupby(["Aquifer", "Date"])["Depth_ft"]
         .agg(mean="mean", std="std", count="count")
         .reset_index()
     )
@@ -510,20 +512,13 @@ app.layout = dbc.Container([
             dbc.Card([
                 dbc.CardHeader("📊 Well Depth Over Time", className="fw-semibold"),
                 dbc.CardBody([
-                    dbc.Row([
-                        dbc.Col([
-                            dcc.Dropdown(
-                                id="well-select",
-                                options=[{"label": w, "value": w} for w in sorted(initial_df["Well_Name"].unique())],
-                                placeholder="Select a well...",
-                                persistence=True,
-                            )
-                        ], md=8),
-                        dbc.Col([
-                            dbc.Alert(id="well-meta", color="light", is_open=False, className="mb-0",
-                                      style={"borderLeft": "4px solid #667eea"}),
-                        ], md=4)
-                    ], className="g-2"),
+                    dcc.Dropdown(
+                        id="well-select",
+                        options=[{"label": w, "value": w} for w in sorted(initial_df["Well_Name"].unique())],
+                        placeholder="Select a well...",
+                        persistence=True,
+                        className="mb-3"
+                    ),
 
                     dcc.Graph(id="time-series", style={"height": "320px"}),
                 ])
@@ -581,49 +576,12 @@ def marker_click_to_dropdown(n_clicks, ids):
 
 @app.callback(
     Output("time-series", "figure"),
-    Output("well-meta", "children"),
-    Output("well-meta", "is_open"),
     Input("data-store", "data"),
     Input("well-select", "value"),
 )
 def update_time_graph(data, well):
     df = dataframe_from_store(data)
-    fig = fig_time_series(df, well)
-
-    if not well or df.empty or fig is None or len(fig.data) == 0:
-        return go.Figure(), "", False
-
-    sdf = df[df["Well_Name"] == well].sort_values("Date")
-    last = sdf.iloc[-1]
-    last_date = last["Date"]
-    if isinstance(last_date, str):
-        last_date = pd.to_datetime(last_date, errors="coerce")
-    date_display = last_date.strftime("%Y-%m-%d") if pd.notna(last_date) else str(last["Date"])
-
-    base_date = sdf["Date"].min()
-    x_days = (sdf["Date"] - base_date).dt.total_seconds() / 86400.0
-    reg = linear_regression_stats(
-        x_days.to_numpy(dtype=float),
-        sdf["Depth_ft"].astype(float).to_numpy(dtype=float)
-    )
-
-    meta = [
-        html.Div([html.B("Well: "), html.Span(str(last["Well_Name"]))]),
-        html.Div([html.B("Aquifer: "), html.Span(str(last["Aquifer"]))]),
-        html.Div([html.B("Date: "), html.Span(date_display)]),
-        html.Div([html.B("Method: "), html.Span(str(last["Method"]))]),
-    ]
-    if reg:
-        slope_yearly = reg["slope"] * 365.25
-        p_value = reg["p_value"]
-        significance = None
-        if p_value is not None:
-            significance = "Yes" if p_value < 0.05 else "No"
-        slope_text = f"{slope_yearly:.2f} ft/yr"
-        if p_value is not None:
-            slope_text += f" (p = {p_value:.3g}; significant? {significance})"
-        meta.append(html.Div([html.B("Trend: "), html.Span(slope_text)]))
-    return fig, meta, True
+    return fig_time_series(df, well)
 
 @app.callback(
     Output("aquifer-avg", "figure"),
