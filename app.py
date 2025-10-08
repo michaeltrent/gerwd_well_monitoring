@@ -320,6 +320,8 @@ def fig_aquifer_averages(df: pd.DataFrame) -> go.Figure:
     stats["sem"] = stats["sem"].fillna(0)
 
     fig = go.Figure()
+    annotations = []
+
     for aquifer, group in stats.groupby("Aquifer"):
         group = group.sort_values("Date")
         color = AQUIFER_COLORS.get(aquifer, "#666666")
@@ -369,6 +371,25 @@ def fig_aquifer_averages(df: pd.DataFrame) -> go.Figure:
                     )
                 )
 
+                slope_daily = reg["slope"]
+                slope_yearly = slope_daily * 365.25
+                p_value = reg["p_value"]
+                significance = None
+                if p_value is not None:
+                    significance = "Yes" if p_value < 0.05 else "No"
+
+                annotation_lines = [
+                    f"{aquifer}: Depth = {reg['intercept']:.2f} + {slope_daily:.4f} × days since {base_date.date()}",
+                    f"R² = {reg['r_squared']:.3f}",
+                    f"Slope ≈ {slope_yearly:.2f} ft/yr",
+                ]
+                if p_value is not None:
+                    annotation_lines.append(f"Slope p = {p_value:.3g} → significant? {significance}")
+                else:
+                    annotation_lines.append("Slope significance unavailable")
+
+                annotations.append("<br>".join(annotation_lines))
+
     fig.update_layout(
         margin=dict(l=10, r=10, t=10, b=10),
         hovermode="x unified",
@@ -377,6 +398,22 @@ def fig_aquifer_averages(df: pd.DataFrame) -> go.Figure:
         yaxis_title="Average Depth to Water (feet)",
     )
     fig.update_yaxes(autorange="reversed")
+
+    if annotations:
+        fig.add_annotation(
+            xref="paper",
+            yref="paper",
+            x=0.01,
+            y=0.99,
+            xanchor="left",
+            yanchor="top",
+            text="<br><br>".join(annotations),
+            align="left",
+            font=dict(size=12),
+            bgcolor="rgba(255,255,255,0.75)",
+            bordercolor="#444444",
+            borderwidth=1,
+        )
     return fig
 
 # --- Build map layer ---
