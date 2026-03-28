@@ -148,9 +148,24 @@ export async function loadData() {
 }
 
 // ---------------------------------------------------------------------------
-// Query functions (mirror the FastAPI endpoints)
+// Query functions
 // ---------------------------------------------------------------------------
 const fmtDate = (d) => d.toISOString().slice(0, 10)
+
+function applyDateFilter(rows, dateRange) {
+  if (!dateRange) return rows
+  let out = rows
+  if (dateRange.start) {
+    const s = new Date(dateRange.start)
+    out = out.filter((r) => r.Date >= s)
+  }
+  if (dateRange.end) {
+    const e = new Date(dateRange.end)
+    e.setDate(e.getDate() + 1) // make end date inclusive
+    out = out.filter((r) => r.Date < e)
+  }
+  return out
+}
 
 export function getInfo(rows) {
   if (!rows.length)
@@ -187,8 +202,10 @@ export function getWells(rows) {
   }))
 }
 
-export function getTimeseries(rows, well) {
-  const sdf = rows.filter((r) => r.Well_Name === well).sort((a, b) => a.Date - b.Date)
+export function getTimeseries(rows, well, dateRange) {
+  let sdf = rows.filter((r) => r.Well_Name === well)
+  sdf = applyDateFilter(sdf, dateRange)
+  sdf.sort((a, b) => a.Date - b.Date)
   if (!sdf.length) return null
 
   const aquifer = sdf[sdf.length - 1].Aquifer
@@ -217,12 +234,15 @@ export function getTimeseries(rows, well) {
   return { well, aquifer, color, dates, depths, trend }
 }
 
-export function getAquiferAverages(rows) {
-  if (!rows.length) return []
+export function getAquiferAverages(rows, { aquifer: aquiferFilter, dateRange } = {}) {
+  let filtered = rows
+  if (aquiferFilter) filtered = filtered.filter((r) => r.Aquifer === aquiferFilter)
+  filtered = applyDateFilter(filtered, dateRange)
+  if (!filtered.length) return []
 
   // Group by (aquifer, month)
   const buckets = new Map()
-  for (const r of rows) {
+  for (const r of filtered) {
     const monthKey = `${r.Aquifer}|${r.Date.getFullYear()}-${String(r.Date.getMonth() + 1).padStart(2, '0')}`
     if (!buckets.has(monthKey)) buckets.set(monthKey, { aquifer: r.Aquifer, year: r.Date.getFullYear(), month: r.Date.getMonth(), values: [] })
     buckets.get(monthKey).values.push(r.Depth_ft)

@@ -1,7 +1,6 @@
 /**
  * Static-build API layer — all data processing happens client-side.
- * Exports the same function signatures as the original fetch-based API
- * so no component changes are needed.
+ * Exports the same function signatures the components expect.
  */
 import { loadData, getInfo, getWells, getTimeseries, getAquiferAverages } from './dataUtils'
 
@@ -19,12 +18,12 @@ export async function fetchWells() {
   return getWells(await ensureData())
 }
 
-export async function fetchTimeseries(well) {
-  const data = getTimeseries(await ensureData(), well)
-  if (!data) throw new Error(`Well '${well}' not found`)
+export async function fetchTimeseries(well, dateRange) {
+  const data = getTimeseries(await ensureData(), well, dateRange)
+  if (!data) throw new Error(`No data for '${well}' in this date range`)
   return data
 }
 
-export async function fetchAquiferAverages() {
-  return getAquiferAverages(await ensureData())
+export async function fetchAquiferAverages({ aquifer, dateRange } = {}) {
+  return getAquiferAverages(await ensureData(), { aquifer, dateRange })
 }

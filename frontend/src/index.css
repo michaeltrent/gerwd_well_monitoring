@@ -11,6 +11,9 @@
   body {
     @apply bg-slate-50 text-slate-800 antialiased;
   }
+  html.dark body {
+    @apply bg-slate-950 text-slate-100;
+  }
 }
 
 /* Plotly responsive override */
@@ -24,11 +27,22 @@
   box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15) !important;
   padding: 0 !important;
 }
+html.dark .leaflet-popup-content-wrapper {
+  background: #1e293b !important;
+  color: #e2e8f0 !important;
+}
 .leaflet-popup-content {
   margin: 0 !important;
 }
 .leaflet-popup-tip-container {
   display: none;
+}
+
+/* Dark mode Leaflet controls */
+html.dark .leaflet-control-zoom a {
+  background-color: #334155 !important;
+  color: #e2e8f0 !important;
+  border-color: #475569 !important;
 }
 
 /* Pulsing dot animation */
