@@ -101,6 +101,60 @@
     }
     .aquifer-badge + .aquifer-badge { margin-top: 5px; display: flex; }
 
+    /* ── Filter Bar ── */
+    .filter-bar {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 14px 20px;
+      box-shadow: var(--shadow);
+      display: flex; flex-wrap: wrap; align-items: center; gap: 16px;
+    }
+    .filter-label {
+      font-size: 0.65rem; font-weight: 600; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--text-muted);
+      font-family: var(--font-mono); flex-shrink: 0;
+    }
+    .toggle-group {
+      display: flex; gap: 3px; background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border); border-radius: 10px; padding: 3px;
+    }
+    body.light .toggle-group { background: rgba(0,0,0,0.04); }
+    .toggle-btn {
+      padding: 6px 12px; border-radius: 8px; border: none;
+      font-size: 0.72rem; font-weight: 600; font-family: var(--font-head);
+      cursor: pointer; transition: all .15s;
+      background: transparent; color: var(--text-muted);
+      white-space: nowrap;
+    }
+    .toggle-btn.active {
+      background: rgba(255,255,255,0.1); color: var(--text);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    }
+    body.light .toggle-btn.active {
+      background: #fff; color: #1e293b;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    .toggle-btn:hover:not(.active) { color: var(--text-dim); }
+    .toggle-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+    .date-input {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 8px; padding: 6px 10px;
+      font-size: 0.72rem; font-family: var(--font-mono);
+      color: var(--text); width: 130px;
+      transition: border-color .15s;
+    }
+    .date-input:focus { outline: none; border-color: #3498db; }
+    .date-arrow { color: var(--text-muted); font-size: 0.72rem; }
+    .date-clear {
+      width: 28px; height: 28px; border-radius: 8px; border: none;
+      background: transparent; color: var(--text-muted); cursor: pointer;
+      font-size: 0.75rem; display: flex; align-items: center; justify-content: center;
+      transition: background .15s;
+    }
+    .date-clear:hover { background: rgba(255,255,255,0.08); color: var(--text); }
+    body.light .date-clear:hover { background: rgba(0,0,0,0.06); }
+    .filter-dates { display: flex; align-items: center; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    @media (max-width: 768px) { .filter-dates { margin-left: 0; width: 100%; } }
+
     /* ── Cards ── */
     .card {
       background: var(--surface); border: 1px solid var(--border);
@@ -190,8 +244,42 @@
     /* ── Footer ── */
     footer { text-align: center; font-size: 0.7rem; color: var(--text-muted); font-family: var(--font-mono); padding-bottom: 20px; }
 
-    /* Plotly dark overrides */
+    /* Plotly responsive */
     .js-plotly-plot .plotly { width: 100% !important; }
+
+    /* ── Theme Toggle ── */
+    .theme-toggle {
+      width: 38px; height: 38px; border-radius: 10px;
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; flex-shrink: 0; transition: background .2s;
+      color: var(--text-dim); font-size: 18px; margin-left: 8px;
+    }
+    .theme-toggle:hover { background: rgba(255,255,255,0.15); }
+
+    /* ── Light Mode ── */
+    body.light {
+      --bg: #f1f5f9;
+      --surface: #ffffff;
+      --surface2: #f8fafc;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --shadow: 0 4px 24px rgba(0,0,0,0.06);
+    }
+    body.light header {
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 50%, #1e293b 100%);
+    }
+    body.light .leaflet-container { background: #f1f5f9 !important; }
+    body.light .leaflet-popup-content-wrapper {
+      background: #fff !important; border: 1px solid #e2e8f0 !important;
+      color: #1e293b;
+    }
+    body.light .leaflet-popup-tip { background: #fff !important; }
+    body.light .map-legend { background: rgba(248,250,252,0.8); }
+    body.light .theme-toggle { background: rgba(255,255,255,0.15); }
+    body.light .theme-toggle:hover { background: rgba(255,255,255,0.25); }
   </style>
 </head>
 <body>
@@ -211,6 +299,7 @@ const WELL_DATA = {"info":{"record_count":2754,"aquifers":["Dawson Arkose","Denv
       <div class="pulse"></div>
       <span id="hdr-count">—</span> measurements
     </div>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">🌙</button>
   </div>
 </header>
 
@@ -235,6 +324,23 @@ const WELL_DATA = {"info":{"record_count":2754,"aquifers":["Dawson Arkose","Denv
     <div class="stat-tile">
       <div class="stat-label"><span class="stat-icon">🌊</span>Aquifers</div>
       <div id="s-aquifers"></div>
+    </div>
+  </div>
+
+  <!-- Filter Bar -->
+  <div class="filter-bar" id="filter-bar">
+    <span class="filter-label">Aquifer</span>
+    <div class="toggle-group" id="aquifer-toggle">
+      <button class="toggle-btn active" data-aq="">All</button>
+      <button class="toggle-btn" data-aq="Dawson Arkose"><span class="toggle-dot" style="background:#e74c3c"></span>Dawson Arkose</button>
+      <button class="toggle-btn" data-aq="Denver Formation"><span class="toggle-dot" style="background:#3498db"></span>Denver Formation</button>
+    </div>
+    <div class="filter-dates">
+      <span class="filter-label">Dates</span>
+      <input type="date" class="date-input" id="date-start"/>
+      <span class="date-arrow">→</span>
+      <input type="date" class="date-input" id="date-end"/>
+      <button class="date-clear" id="date-clear" title="Clear date filter" style="display:none">✕</button>
     </div>
   </div>
 
@@ -304,28 +410,83 @@ function hexToRgba(hex, a) {
   return `rgba(${r},${g},${b},${a})`;
 }
 
-const PLOTLY_LAYOUT_BASE = {
+// ── Theme ────────────────────────────────────────────────────────────────
+let isDark = (() => {
+  try { const s = localStorage.getItem('theme'); if (s) return s === 'dark'; } catch {}
+  return true; // default dark
+})();
+
+const PLOTLY_DARK = {
   font: { family: "'Syne', sans-serif", color: '#94a3b8' },
   paper_bgcolor: 'rgba(0,0,0,0)',
   plot_bgcolor: '#0f1e33',
-  margin: { l: 56, r: 18, t: 18, b: 52 },
-  hovermode: 'x unified',
   hoverlabel: { bgcolor: '#1a2538', bordercolor: '#1e3a5f', font: { color: '#e2e8f0', family: "'IBM Plex Mono', monospace" } },
-  xaxis: {
-    gridcolor: '#1a2e4a', linecolor: '#1e3a5f', zerolinecolor: '#1e3a5f',
-    tickfont: { size: 10, color: '#64748b' },
-    title: { font: { size: 11 } }
-  },
-  yaxis: {
-    autorange: 'reversed',
-    gridcolor: '#1a2e4a', linecolor: '#1e3a5f', zerolinecolor: '#1e3a5f',
-    tickfont: { size: 10, color: '#64748b' },
-    title: { text: 'Depth to Water (ft)', font: { size: 11 } }
-  },
-  legend: { orientation: 'h', yanchor: 'bottom', y: 1.02, xanchor: 'right', x: 1, font: { size: 11 } },
-  autosize: true,
-  modebar: { bgcolor: 'transparent', color: '#64748b', activecolor: '#3498db' }
+  xaxis: { gridcolor: '#1a2e4a', linecolor: '#1e3a5f', zerolinecolor: '#1e3a5f', tickfont: { size: 10, color: '#64748b' } },
+  yaxis: { gridcolor: '#1a2e4a', linecolor: '#1e3a5f', zerolinecolor: '#1e3a5f', tickfont: { size: 10, color: '#64748b' } },
+  annotationBg: 'rgba(15,30,51,0.92)', annotationText: '#cbd5e1', annotationBorder: '#1e3a5f',
+  markerLine: '#1e293b',
+  modebar: { bgcolor: 'transparent', color: '#64748b', activecolor: '#3498db' },
 };
+const PLOTLY_LIGHT = {
+  font: { family: "'Syne', sans-serif", color: '#475569' },
+  paper_bgcolor: 'rgba(0,0,0,0)',
+  plot_bgcolor: '#f8fafc',
+  hoverlabel: { bgcolor: '#fff', bordercolor: '#e2e8f0', font: { color: '#1e293b', family: "'IBM Plex Mono', monospace" } },
+  xaxis: { gridcolor: '#e2e8f0', linecolor: '#cbd5e1', zerolinecolor: '#cbd5e1', tickfont: { size: 10, color: '#94a3b8' } },
+  yaxis: { gridcolor: '#e2e8f0', linecolor: '#cbd5e1', zerolinecolor: '#cbd5e1', tickfont: { size: 10, color: '#94a3b8' } },
+  annotationBg: 'rgba(255,255,255,0.92)', annotationText: '#475569', annotationBorder: '#cbd5e1',
+  markerLine: '#ffffff',
+  modebar: { bgcolor: 'transparent', color: '#94a3b8', activecolor: '#3498db' },
+};
+
+function themeColors() { return isDark ? PLOTLY_DARK : PLOTLY_LIGHT; }
+
+function getPlotlyLayoutBase() {
+  const t = themeColors();
+  return {
+    font: t.font,
+    paper_bgcolor: t.paper_bgcolor,
+    plot_bgcolor: t.plot_bgcolor,
+    margin: { l: 56, r: 18, t: 18, b: 52 },
+    hovermode: 'x unified',
+    hoverlabel: t.hoverlabel,
+    xaxis: { ...t.xaxis, title: { font: { size: 11 } } },
+    yaxis: { autorange: 'reversed', ...t.yaxis, title: { text: 'Depth to Water (ft)', font: { size: 11 } } },
+    legend: { orientation: 'h', yanchor: 'bottom', y: 1.02, xanchor: 'right', x: 1, font: { size: 11 } },
+    autosize: true,
+    modebar: t.modebar,
+  };
+}
+
+// Will be set once map initializes
+let tileLayer = null;
+const TILE_DARK = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+const TILE_LIGHT = 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png';
+
+function applyTheme() {
+  document.body.classList.toggle('light', !isDark);
+  document.getElementById('theme-toggle').textContent = isDark ? '🌙' : '☀️';
+  try { localStorage.setItem('theme', isDark ? 'dark' : 'light'); } catch {}
+  // Swap map tiles
+  if (tileLayer && typeof map !== 'undefined') {
+    tileLayer.setUrl(isDark ? TILE_DARK : TILE_LIGHT);
+  }
+}
+
+document.getElementById('theme-toggle').addEventListener('click', () => {
+  isDark = !isDark;
+  applyTheme();
+  // Re-render charts with new colors
+  if (selectedWell) selectWell(selectedWell);
+  renderAquiferAverages();
+});
+
+// Apply saved theme immediately
+applyTheme();
+
+// Compat shim so existing code keeps working
+function get_PLOTLY_LAYOUT_BASE() { return getPlotlyLayoutBase(); }
+const PLOTLY_LAYOUT_BASE = getPlotlyLayoutBase();
 
 // ── Bootstrap ──────────────────────────────────────────────────────────
 const { info, wells, timeseries, aquifer_averages } = WELL_DATA;
@@ -359,15 +520,26 @@ const avgLat = wells.reduce((s,w)=>s+w.latitude,0)/wells.length;
 const avgLon = wells.reduce((s,w)=>s+w.longitude,0)/wells.length;
 
 const map = L.map('map', { center: [avgLat, avgLon], zoom: 13, scrollWheelZoom: true });
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+tileLayer = L.tileLayer(isDark ? TILE_DARK : TILE_LIGHT, {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
 }).addTo(map);
 
 let selectedWell = null;
 const markers = {};
 
+// 200m jitter (~0.0018° lat, ~0.0023° lon at this latitude) for location anonymity
+function jitter200m(lat, lon) {
+  const dLat = (Math.random() - 0.5) * 2 * 0.0018;
+  const dLon = (Math.random() - 0.5) * 2 * 0.0023;
+  return [lat + dLat, lon + dLon];
+}
+// Pre-compute jittered positions (stable per page load)
+const jitteredPos = {};
+wells.forEach(w => { jitteredPos[w.well_name] = jitter200m(w.latitude, w.longitude); });
+
 wells.forEach(well => {
-  const marker = L.circleMarker([well.latitude, well.longitude], {
+  const pos = jitteredPos[well.well_name];
+  const marker = L.circleMarker(pos, {
     radius: 9, color: 'rgba(255,255,255,0.25)', weight: 1.5,
     fillColor: well.color, fillOpacity: 0.85
   }).addTo(map);
@@ -376,7 +548,6 @@ wells.forEach(well => {
     <div class="popup-inner">
       <div class="popup-name">${well.well_name}</div>
       <div class="popup-row"><div class="popup-dot" style="background:${well.color}"></div>${well.aquifer}</div>
-      <div class="popup-row">📍 ${well.latitude.toFixed(4)}, ${well.longitude.toFixed(4)}</div>
       <div class="popup-row">📏 ${well.latest_depth.toFixed(1)} ft depth</div>
       <div class="popup-row">🗓 ${well.latest_date}</div>
       <button class="popup-btn" onclick="selectWell('${well.well_name}')">View time series →</button>
@@ -430,9 +601,14 @@ function renderTimeSeries(wellName) {
   badge.style.borderColor = hexToRgba(d.color, 0.4);
   badge.style.background = hexToRgba(d.color, 0.1);
 
-  // Deduplicate by date for main trace
+  // Filter by date range and deduplicate
   const seen = {}; const dates = []; const depths = [];
-  d.dates.forEach((dt, i) => { if (!seen[dt]) { seen[dt] = true; dates.push(dt); depths.push(d.depths[i]); } });
+  d.dates.forEach((dt, i) => {
+    if (filterDateStart && dt < filterDateStart) return;
+    if (filterDateEnd && dt > filterDateEnd) return;
+    if (!seen[dt]) { seen[dt] = true; dates.push(dt); depths.push(d.depths[i]); }
+  });
+  if (!dates.length) { area.innerHTML = '<div class="empty-state"><div class="empty-text">No data in this date range</div></div>'; return; }
 
   const traces = [{
     x: dates, y: depths, type: 'scatter', mode: 'lines+markers',
@@ -443,11 +619,17 @@ function renderTimeSeries(wellName) {
 
   if (d.trend) {
     const seenT = {}; const tdates = []; const tvals = [];
-    d.trend.dates.forEach((dt,i) => { if(!seenT[dt]){ seenT[dt]=true; tdates.push(dt); tvals.push(d.trend.values[i]); }});
-    traces.push({
-      x: tdates, y: tvals, type: 'scatter', mode: 'lines',
-      name: 'Trend', line: { color: d.color, width: 1.5, dash: 'dash' }, opacity: 0.65, showlegend: false
+    d.trend.dates.forEach((dt,i) => {
+      if (filterDateStart && dt < filterDateStart) return;
+      if (filterDateEnd && dt > filterDateEnd) return;
+      if(!seenT[dt]){ seenT[dt]=true; tdates.push(dt); tvals.push(d.trend.values[i]); }
     });
+    if (tdates.length >= 2) {
+      traces.push({
+        x: tdates, y: tvals, type: 'scatter', mode: 'lines',
+        name: 'Trend', line: { color: d.color, width: 1.5, dash: 'dash' }, opacity: 0.65, showlegend: false
+      });
+    }
   }
 
   const annotations = [];
@@ -457,16 +639,16 @@ function renderTimeSeries(wellName) {
     annotations.push({
       xref:'paper', yref:'paper', x:0.01, y:0.02,
       xanchor:'left', yanchor:'bottom', align:'left',
-      font:{ size:11, family:"'IBM Plex Mono', monospace", color:'#94a3b8' },
-      bgcolor:'rgba(11,17,32,0.85)', bordercolor: d.color, borderwidth:1.5, borderpad:8,
+      font:{ size:11, family:"'IBM Plex Mono', monospace", color: themeColors().annotationText },
+      bgcolor: themeColors().annotationBg, bordercolor: d.color, borderwidth:1.5, borderpad:8,
       text: `<b>${wellName}</b><br>Slope ${dir} <b>${Math.abs(t.slope_yearly).toFixed(2)} ft/yr</b> · R² = ${t.r_squared.toFixed(3)}`
     });
   }
 
-  const layout = Object.assign({}, PLOTLY_LAYOUT_BASE, {
+  const layout = Object.assign({}, getPlotlyLayoutBase(), {
     annotations,
-    yaxis: Object.assign({}, PLOTLY_LAYOUT_BASE.yaxis, { title: { text: 'Depth to Water (ft)', font: { size: 11 } } }),
-    xaxis: Object.assign({}, PLOTLY_LAYOUT_BASE.xaxis, { title: { text: 'Date', font: { size: 11 } } }),
+    yaxis: Object.assign({}, getPlotlyLayoutBase().yaxis, { title: { text: 'Depth to Water (ft)', font: { size: 11 } } }),
+    xaxis: Object.assign({}, getPlotlyLayoutBase().xaxis, { title: { text: 'Date', font: { size: 11 } } }),
     height: 330
   });
 
@@ -480,35 +662,61 @@ function renderAquiferAverages() {
   const annotations = [];
 
   for (const [aquifer, aq] of Object.entries(aquifer_averages)) {
+    if (activeAquifer && aquifer !== activeAquifer) continue;
     const color = aq.color;
 
-    // SEM band
-    traces.push({
-      x: [...aq.dates, ...[...aq.dates].reverse()],
-      y: [...aq.upper_sem, ...[...aq.lower_sem].reverse()],
-      fill: 'toself', fillcolor: hexToRgba(color, 0.12),
-      line: { color: 'transparent' }, hoverinfo: 'skip', showlegend: false, type: 'scatter'
+    // Apply date filter
+    const idx = [];
+    aq.dates.forEach((dt, i) => {
+      if (filterDateStart && dt < filterDateStart) return;
+      if (filterDateEnd && dt > filterDateEnd) return;
+      idx.push(i);
     });
+    const fDates = idx.map(i => aq.dates[i]);
+    const fMeans = idx.map(i => aq.means[i]);
+    const fUpper = idx.map(i => aq.upper_sem[i]);
+    const fLower = idx.map(i => aq.lower_sem[i]);
+    if (!fDates.length) continue;
+
+    // SEM band
+    if (fDates.length >= 2) {
+      traces.push({
+        x: [...fDates, ...[...fDates].reverse()],
+        y: [...fUpper, ...[...fLower].reverse()],
+        fill: 'toself', fillcolor: hexToRgba(color, 0.12),
+        line: { color: 'transparent' }, hoverinfo: 'skip', showlegend: false, type: 'scatter'
+      });
+    }
 
     // Mean line
     traces.push({
-      x: aq.dates, y: aq.means, type: 'scatter', mode: 'lines+markers',
+      x: fDates, y: fMeans, type: 'scatter', mode: 'lines+markers',
       name: aquifer, line: { width: 2.5, color },
-      marker: { size: 4, color, line: { color: '#0b1120', width: 1 } }
+      marker: { size: 4, color, line: { color: isDark ? '#0b1120' : '#fff', width: 1 } }
     });
 
-    // Trend line
+    // Trend line (filter by date)
     if (aq.trend) {
-      traces.push({
-        x: aq.trend.dates, y: aq.trend.values, type: 'scatter', mode: 'lines',
-        name: aquifer + ' trend', line: { color, width: 1.5, dash: 'dot' }, opacity: 0.6, showlegend: false
+      const tidx = [];
+      aq.trend.dates.forEach((dt, i) => {
+        if (filterDateStart && dt < filterDateStart) return;
+        if (filterDateEnd && dt > filterDateEnd) return;
+        tidx.push(i);
       });
+      if (tidx.length >= 2) {
+        traces.push({
+          x: tidx.map(i => aq.trend.dates[i]), y: tidx.map(i => aq.trend.values[i]),
+          type: 'scatter', mode: 'lines',
+          name: aquifer + ' trend', line: { color, width: 1.5, dash: 'dot' }, opacity: 0.6, showlegend: false
+        });
+      }
     }
   }
 
   // Build annotation text
   const annLines = [];
   for (const [aquifer, aq] of Object.entries(aquifer_averages)) {
+    if (activeAquifer && aquifer !== activeAquifer) continue;
     if (!aq.trend) continue;
     const t = aq.trend;
     const dir = t.slope_yearly > 0 ? '▲' : '▼';
@@ -520,20 +728,106 @@ function renderAquiferAverages() {
     annotations.push({
       xref:'paper', yref:'paper', x:0.01, y:0.02,
       xanchor:'left', yanchor:'bottom', align:'left',
-      font:{ size:11, family:"'IBM Plex Mono', monospace", color:'#94a3b8' },
-      bgcolor:'rgba(11,17,32,0.85)', bordercolor:'#1e3a5f', borderwidth:1.5, borderpad:10,
+      font:{ size:11, family:"'IBM Plex Mono', monospace", color: themeColors().annotationText },
+      bgcolor: themeColors().annotationBg, bordercolor: themeColors().annotationBorder, borderwidth:1.5, borderpad:10,
       text: annLines.join('<br><br>')
     });
   }
 
-  const layout = Object.assign({}, PLOTLY_LAYOUT_BASE, {
+  const layout = Object.assign({}, getPlotlyLayoutBase(), {
     annotations, height: 400,
-    xaxis: Object.assign({}, PLOTLY_LAYOUT_BASE.xaxis, { title: { text: 'Date', font: { size: 11 } } }),
-    yaxis: Object.assign({}, PLOTLY_LAYOUT_BASE.yaxis, { title: { text: 'Avg Depth to Water (ft)', font: { size: 11 } } }),
+    xaxis: Object.assign({}, getPlotlyLayoutBase().xaxis, { title: { text: 'Date', font: { size: 11 } } }),
+    yaxis: Object.assign({}, getPlotlyLayoutBase().yaxis, { title: { text: 'Avg Depth to Water (ft)', font: { size: 11 } } }),
   });
 
   document.getElementById('aq-area').innerHTML = '<div id="aq-plot" style="width:100%"></div>';
   Plotly.newPlot('aq-plot', traces, layout, { responsive: true, displayModeBar: true, displaylogo: false, modeBarButtonsToRemove: ['lasso2d','select2d'] });
+}
+
+// ── Filters ──────────────────────────────────────────────────────────
+let activeAquifer = ''; // '' = all
+let filterDateStart = null;
+let filterDateEnd = null;
+
+const dateStartEl = document.getElementById('date-start');
+const dateEndEl = document.getElementById('date-end');
+const dateClearEl = document.getElementById('date-clear');
+
+// Set date input bounds
+dateStartEl.min = info.date_range.min;
+dateStartEl.max = info.date_range.max;
+dateEndEl.min = info.date_range.min;
+dateEndEl.max = info.date_range.max;
+
+// Aquifer toggle buttons
+document.querySelectorAll('#aquifer-toggle .toggle-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#aquifer-toggle .toggle-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeAquifer = btn.dataset.aq;
+    applyFilters();
+  });
+});
+
+// Date inputs
+dateStartEl.addEventListener('change', () => {
+  filterDateStart = dateStartEl.value || null;
+  dateClearEl.style.display = (filterDateStart || filterDateEnd) ? '' : 'none';
+  applyFilters();
+});
+dateEndEl.addEventListener('change', () => {
+  filterDateEnd = dateEndEl.value || null;
+  dateClearEl.style.display = (filterDateStart || filterDateEnd) ? '' : 'none';
+  applyFilters();
+});
+dateClearEl.addEventListener('click', () => {
+  dateStartEl.value = '';
+  dateEndEl.value = '';
+  filterDateStart = null;
+  filterDateEnd = null;
+  dateClearEl.style.display = 'none';
+  applyFilters();
+});
+
+function applyFilters() {
+  // Show/hide map markers
+  wells.forEach(w => {
+    const m = markers[w.well_name];
+    if (activeAquifer && w.aquifer !== activeAquifer) {
+      m.setStyle({ fillOpacity: 0, opacity: 0 });
+      m.closePopup();
+    } else {
+      m.setStyle({ fillOpacity: selectedWell === w.well_name ? 1 : 0.85, opacity: 1 });
+    }
+  });
+
+  // Update dropdown
+  const curVal = sel.value;
+  while (sel.options.length > 1) sel.remove(1);
+  [...wells].filter(w => !activeAquifer || w.aquifer === activeAquifer)
+    .sort((a,b) => a.well_name.localeCompare(b.well_name))
+    .forEach(w => {
+      const o = document.createElement('option');
+      o.value = w.well_name;
+      o.textContent = w.well_name;
+      sel.appendChild(o);
+    });
+
+  // If current selection is filtered out, clear it
+  const filteredNames = wells.filter(w => !activeAquifer || w.aquifer === activeAquifer).map(w => w.well_name);
+  if (selectedWell && !filteredNames.includes(selectedWell)) {
+    selectedWell = null;
+    sel.value = '';
+    updateMarkerStyles();
+    document.getElementById('map-selected-label').textContent = '';
+    const area = document.querySelector('.chart-area');
+    area.innerHTML = '<div class="empty-state"><div class="empty-icon">📉</div><div class="empty-text">Select a well above or click a map marker</div></div>';
+  } else if (selectedWell) {
+    sel.value = selectedWell;
+    renderTimeSeries(selectedWell);
+  }
+
+  renderAquiferAverages();
 }
 
 renderAquiferAverages();
