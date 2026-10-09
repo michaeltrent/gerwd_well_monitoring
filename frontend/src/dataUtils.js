@@ -7,7 +7,7 @@ import Papa from 'papaparse'
 // ---------------------------------------------------------------------------
 // Constants
 // ---------------------------------------------------------------------------
-const CSV_PATH = import.meta.env.BASE_URL + 'well_data_df_10.07.2025.csv'
+const CSV_PATH = import.meta.env.BASE_URL + 'well_data_df_10.05.2026.csv'
 
 const AQUIFER_COLORS = {
   'Dawson Arkose': '#e74c3c',
@@ -169,7 +169,7 @@ function applyDateFilter(rows, dateRange) {
 
 export function getInfo(rows) {
   if (!rows.length)
-    return { filename: 'well_data_df_10.07.2025.csv', record_count: 0, aquifers: [], date_range: null }
+    return { filename: 'well_data_df_10.05.2026.csv', record_count: 0, aquifers: [], date_range: null }
 
   const aquifers = [...new Set(rows.map((r) => r.Aquifer))].sort()
   const dates = rows.map((r) => r.Date)
@@ -177,7 +177,7 @@ export function getInfo(rows) {
   const max = new Date(Math.max(...dates))
 
   return {
-    filename: 'well_data_df_10.07.2025.csv',
+    filename: 'well_data_df_10.05.2026.csv',
     record_count: rows.length,
     aquifers,
     date_range: { min: fmtDate(min), max: fmtDate(max) },

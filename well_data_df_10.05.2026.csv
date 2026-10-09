@@ -1,0 +1,997 @@
+,phenomenonTime,phenomenonTimeAccuracy,result,resultAccuracy,resultMethod,approvals,qualifiers,well_name,local_aquafer,depth,lat,long,surface_hole_alt
+0,2010-07-06T20:30,minute,53.8,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+1,2010-09-21T20:40,minute,60.17,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+2,2010-11-23T21:20,minute,54.32,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+3,2011-01-27T20:35,minute,51.89,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+4,2011-03-18T21:20,minute,52.79,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+5,2011-05-23T20:40,minute,53.17,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+6,2011-07-29T19:45,minute,62.99,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+7,2011-09-29T18:55,minute,61.98,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+8,2012-02-17T19:50,minute,52.68,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+9,2012-04-05T20:20,minute,51.93,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+10,2012-08-23T20:40,minute,68.55,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+11,2012-10-10T21:30,minute,64.48,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+12,2012-12-07T22:30,minute,60.75,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+13,2013-02-07T21:30,minute,58.66,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+14,2013-04-12T20:10,minute,56.57,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+15,2013-06-06T20:15,minute,61.03,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+16,2013-08-15T20:30,minute,64.84,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+17,2013-10-25T18:30,minute,59.15,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+18,2013-12-17T21:30,minute,54.46,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+19,2014-02-07T20:50,minute,52.21,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+20,2014-04-04T18:50,minute,49.65,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+21,2014-06-05T20:15,minute,54.21,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+22,2014-08-07T20:30,minute,57.63,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+23,2014-10-02T20:20,minute,56.48,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+24,2015-02-13T22:00,minute,49.49,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+25,2015-06-04T20:00,minute,46.8,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+26,2015-10-09T19:00,minute,54.92,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+27,2016-02-17T19:20,minute,42.23,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+28,2016-06-09T17:50,minute,44.8,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+29,2016-10-13T18:00,minute,54.34,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+30,2016-12-16T20:50,minute,48.18,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+31,2017-02-09T20:10,minute,45.59,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+32,2017-04-14T19:00,minute,46.98,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+33,2017-06-28T18:30,minute,59.03,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+34,2017-08-11T16:56,minute,56.24,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+35,2017-10-16T21:00,minute,55.48,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+36,2018-06-14T18:51,minute,62.21,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+37,2018-08-24T18:53,minute,51.03,0.01,"GW level, calib electric tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+38,2019-02-27T18:24,minute,47.03,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+39,2019-06-20T21:58,minute,54.8,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+40,2019-11-13T16:27,minute,55.88,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+41,2020-03-05T16:56,minute,48.91,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+42,2020-07-15T15:44,minute,63.65,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+43,2020-11-12T16:07,minute,47.48,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+44,2021-03-25T15:50,minute,45.11,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+45,2021-07-21T15:26,minute,46.28,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+46,2021-11-16T16:00,minute,44.15,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+47,2022-02-15T15:28,minute,44.19,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+48,2022-05-25T14:24,minute,45.77,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+49,2022-08-04T14:58,minute,45.07,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+50,2022-12-06T17:32,minute,43.82,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+51,2023-03-08T16:49,minute,43.78,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+52,2023-06-08T15:24,minute,42.11,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+53,2023-09-29T15:41,minute,41.43,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+54,2023-12-07T17:07,minute,56.48,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+55,2024-02-22T18:17,minute,40.91,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+56,2024-06-27T16:09,minute,42.33,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+57,2024-11-01T15:49,minute,41.54,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+58,2024-12-27T18:00,minute,37.59,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+59,2025-03-18T15:36,minute,39.94,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+60,2025-05-20T17:33,minute,78.3,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+61,2025-08-07T14:58,minute,90.92,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+62,2025-12-11T15:58,minute,67.06,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+63,2026-03-26T16:26,minute,68.13,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+64,2026-07-02T16:49,minute,47.94,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+65,2026-09-10T18:04,minute,83.37,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607AA GRNDAW1E,Dawson Arkose,275.0,39.5491111111111,-104.813361111111,5824.0
+66,2017-02-10T17:00,minute,75.65,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+67,2017-04-14T20:00,minute,77.06,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+68,2017-06-28T20:10,minute,87.34,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+69,2017-08-11T16:30,minute,89.49,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+70,2017-10-16T19:50,minute,86.49,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+71,2018-02-02T21:30,minute,77.48,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+72,2019-02-26T21:52,minute,77.28,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+73,2019-06-20T17:19,minute,81.09,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+74,2019-11-13T16:44,minute,80.61,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+75,2020-03-05T17:33,minute,73.29,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+76,2020-07-15T16:39,minute,89.65,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+77,2020-11-12T16:37,minute,82.7,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+78,2021-03-25T16:14,minute,78.89,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+79,2021-07-21T16:42,minute,90.56,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+80,2021-11-16T16:31,minute,85.86,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+81,2022-02-15T15:50,minute,84.42,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+82,2022-05-25T15:08,minute,89.89,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+83,2022-08-04T15:33,minute,111.16,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+84,2022-12-06T17:49,minute,95.44,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+85,2023-03-08T17:04,minute,91.53,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+86,2023-06-08T15:42,minute,95.9,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+87,2023-09-29T16:17,minute,112.2,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+88,2023-12-07T17:44,minute,98.73,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+89,2024-02-22T18:35,minute,95.3,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+90,2024-06-27T16:47,minute,112.62,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+91,2024-11-01T16:00,minute,107.6,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+92,2024-12-27T18:27,minute,100.52,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+93,2025-03-18T15:45,minute,95.48,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+94,2025-05-20T17:42,minute,102.53,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+95,2025-08-07T15:21,minute,94.91,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+96,2025-12-11T16:17,minute,91.36,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+97,2026-03-26T16:40,minute,93.57,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+98,2026-07-02T17:24,minute,111.83,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+99,2026-09-10T19:20,minute,107.26,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607AA GRNDAW8,Dawson Arkose,320.0,39.5476944444444,-104.812611111111,5839.0
+100,2010-09-21T21:15,minute,45.1,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+101,2010-11-23T21:50,minute,39.52,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+102,2011-01-27T21:00,minute,36.67,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+103,2011-03-18T21:50,minute,35.35,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+104,2011-05-23T21:10,minute,35.26,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+105,2011-07-29T20:40,minute,43.13,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+106,2011-09-29T19:30,minute,46.7,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+107,2012-02-17T20:20,minute,34.54,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+108,2012-04-05T21:00,minute,33.68,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+109,2012-08-23T21:40,minute,53.49,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+110,2012-10-10T22:20,minute,51.69,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+111,2012-12-07T23:00,minute,45.81,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+112,2013-02-07T22:15,minute,42.77,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+113,2013-04-12T20:50,minute,39.94,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+114,2013-06-06T20:45,minute,44.14,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+115,2013-08-15T21:15,minute,50.72,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+116,2013-10-25T18:45,minute,45.64,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+117,2013-12-17T22:15,minute,39.18,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+118,2014-02-07T21:30,minute,36.71,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+119,2014-04-04T19:40,minute,34.4,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+120,2014-06-05T21:15,minute,38.77,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+121,2014-08-07T21:10,minute,45.46,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+122,2014-10-02T21:00,minute,43.42,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+123,2015-02-13T22:20,minute,34.32,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+124,2015-06-04T20:30,minute,31.09,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+125,2015-10-09T19:20,minute,43.6,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+126,2016-02-17T20:10,minute,28.01,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+127,2016-06-09T18:10,minute,28.27,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+128,2016-10-13T18:30,minute,43.32,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+129,2016-12-16T21:20,minute,36.31,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+130,2017-02-09T20:50,minute,32.25,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+131,2017-04-14T19:30,minute,31.48,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+132,2017-06-28T19:30,minute,41.39,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+133,2017-08-11T17:30,minute,45.66,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+134,2017-10-16T21:35,minute,43.53,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+135,2018-06-14T19:47,minute,43.81,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+136,2018-08-24T19:33,minute,49.7,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+137,2019-02-27T17:35,minute,33.56,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+138,2019-06-20T15:34,minute,36.16,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+139,2019-11-13T15:57,minute,38.13,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+140,2020-03-05T15:32,minute,30.42,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+141,2020-07-15T14:42,minute,46.92,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+142,2020-11-12T15:22,minute,41.69,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+143,2021-03-25T15:11,minute,33.61,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+144,2021-07-21T14:47,minute,45.08,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+145,2021-11-16T15:20,minute,43.48,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+146,2022-02-15T14:55,minute,40.6,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+147,2022-05-25T13:29,minute,46.75,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+148,2022-08-04T14:03,minute,64.19,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+149,2022-12-06T16:26,minute,53.8,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+150,2023-03-08T15:49,minute,49.01,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+151,2023-06-08T14:42,minute,53.14,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+152,2023-09-29T14:09,minute,65.25,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+153,2023-12-07T16:21,minute,55.96,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+154,2024-02-22T17:26,minute,52.06,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+155,2024-06-27T15:10,minute,65.46,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+156,2024-10-30T15:17,minute,65.96,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+157,2024-12-27T16:46,minute,58.6,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+158,2025-03-18T15:04,minute,53.5,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+159,2025-05-20T16:59,minute,59.06,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+160,2025-08-07T14:07,minute,71.04,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+161,2025-12-11T15:19,minute,49.51,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+162,2026-03-26T15:43,minute,49.2,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+163,2026-07-02T16:12,minute,61.32,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+164,2026-09-10T15:52,minute,65.1,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607AAA GRNDAW1F,Dawson Arkose,244.0,39.551,-104.813527777778,5790.0
+165,2019-02-26T21:28,minute,68.4,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+166,2019-06-20T15:15,minute,72.21,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+167,2019-11-13T17:03,minute,71.55,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+168,2020-03-05T17:10,minute,64.38,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+169,2020-07-15T16:16,minute,80.36,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+170,2020-11-23T20:17,minute,72.58,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+171,2021-03-25T19:31,minute,68.64,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+172,2021-07-21T16:16,minute,79.13,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+173,2021-11-16T16:56,minute,76.39,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+174,2022-02-15T16:10,minute,73.38,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+175,2022-05-25T15:26,minute,80.69,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+176,2022-08-04T15:59,minute,99.34,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+177,2022-12-06T17:15,minute,85.54,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+178,2023-03-08T17:15,minute,81.64,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+179,2023-06-08T15:56,minute,85.91,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+180,2023-09-29T16:32,minute,100.62,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+181,2023-12-07T17:17,minute,88.29,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+182,2024-02-22T20:05,minute,84.75,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+183,2024-06-27T16:25,minute,102.38,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+184,2024-11-01T17:04,minute,96.48,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+185,2024-12-27T17:30,minute,89.76,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+186,2025-03-18T16:00,minute,84.78,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+187,2025-05-20T18:19,minute,92.16,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+188,2025-08-07T15:51,minute,105.69,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+189,2025-12-11T16:39,minute,80.76,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+190,2026-03-26T16:53,minute,82.94,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+191,2026-07-02T19:21,minute,95.08,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+192,2026-09-10T18:52,minute,96.04,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607AAC GRNDAW9,Dawson Arkose,280.0,39.547675,-104.814638888889,5843.0
+193,2009-01-17T12:00,minute,148.7,0.01,"GW level, steel tape",['Approved'],,SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+194,2009-03-05T20:30,minute,149.25,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+195,2009-07-15T12:00,minute,139.25,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+196,2009-09-29T17:05,minute,148.26,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+197,2009-11-20T16:35,minute,140.32,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+198,2010-01-13T17:50,minute,121.95,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+199,2010-03-02T18:10,minute,117.72,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+200,2010-05-11T16:30,minute,118.9,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+201,2010-07-06T15:25,minute,144.26,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+202,2010-09-21T16:05,minute,162.55,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+203,2010-11-23T16:30,minute,145.29,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+204,2011-01-27T16:55,minute,126.65,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+205,2011-03-18T15:55,minute,121.36,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+206,2011-05-23T21:40,minute,136.04,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+207,2011-07-29T15:40,minute,151.52,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+208,2011-09-29T15:10,minute,155.05,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+209,2012-02-17T16:00,minute,127.36,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+210,2012-04-05T15:00,minute,140.05,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+211,2012-08-23T16:30,minute,168.14,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+212,2012-10-10T17:00,minute,162.12,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+213,2012-12-07T16:15,minute,139.26,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+214,2013-02-07T16:15,minute,140.91,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+215,2013-04-12T15:45,minute,136.23,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+216,2013-06-06T14:50,minute,145.22,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+217,2013-08-15T15:00,minute,159.38,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+218,2013-10-24T18:45,minute,141.19,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+219,2013-12-17T17:50,minute,133.34,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+220,2014-02-07T16:20,minute,130.32,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+221,2014-04-04T15:20,minute,129.47,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+222,2014-06-05T15:00,minute,137.36,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+223,2014-08-07T15:10,minute,151.59,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+224,2014-10-02T14:40,minute,149.15,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+225,2015-02-13T16:40,minute,131.11,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+226,2015-06-04T15:30,minute,128.25,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+227,2015-10-09T15:00,minute,140.1,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+228,2016-02-17T16:20,minute,123.62,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+229,2016-06-09T14:30,minute,125.42,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+230,2016-10-13T14:50,minute,150.01,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+231,2016-12-14T18:20,minute,141.19,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+232,2017-02-09T21:00,minute,136.92,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+233,2017-04-14T16:00,minute,140.32,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+234,2017-06-27T18:10,minute,158.32,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+235,2017-08-10T16:00,minute,158.72,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+236,2017-10-16T14:25,minute,150.61,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+237,2018-02-02T15:31,minute,144.55,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+238,2018-08-17T18:58,minute,175.59,0.01,"GW level, calib electric tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+239,2019-02-26T17:41,minute,146.43,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+240,2019-06-20T21:11,minute,147.55,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+241,2019-11-13T21:39,minute,145.11,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+242,2020-03-05T22:29,minute,137.65,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+243,2020-07-15T22:32,minute,161.52,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+244,2020-11-12T22:44,minute,160.88,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+245,2021-03-26T15:46,minute,144.8,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+246,2021-07-21T21:17,minute,175.66,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+247,2021-11-16T20:44,minute,164.14,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+248,2022-02-15T19:31,minute,155.87,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+249,2022-05-25T20:14,minute,165.95,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+250,2022-08-04T20:15,minute,193.39,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+251,2022-12-06T20:46,minute,175.21,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+252,2023-03-08T19:12,minute,168.18,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+253,2023-06-08T20:01,minute,177.63,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+254,2023-09-29T20:01,minute,189.38,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+255,2023-12-07T20:13,minute,181.28,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+256,2024-02-22T21:38,minute,180.11,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+257,2024-06-27T19:11,minute,195.37,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+258,2024-11-01T18:11,minute,188.51,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+259,2024-12-27T20:51,minute,182.64,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+260,2025-03-18T17:46,minute,181.02,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+261,2025-05-20T19:43,minute,188.83,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+262,2025-08-07T17:14,minute,204.32,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+263,2025-12-11T17:50,minute,180.72,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+264,2026-03-26T18:27,minute,180.03,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+265,2026-07-02T20:11,minute,196.88,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+266,2026-09-17T14:43,minute,192.74,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607BABD GRNDEV4,Denver Formation,520.0,39.5494331459337,-104.823865453303,5835.0
+267,2009-01-10T12:00,minute,93.15,0.01,"GW level, steel tape",['Approved'],,SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+268,2009-03-05T17:30,minute,93.2,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+269,2009-07-15T12:00,minute,99.31,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+270,2009-09-29T15:55,minute,97.0,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+271,2009-11-20T15:50,minute,90.96,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+272,2010-01-13T16:40,minute,86.62,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+273,2010-03-02T16:30,minute,88.48,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+274,2010-05-11T16:50,minute,89.79,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+275,2010-07-06T14:35,minute,96.5,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+276,2010-09-21T15:00,minute,104.55,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+277,2010-11-23T15:30,minute,96.2,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+278,2011-01-27T15:45,minute,94.17,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+279,2011-03-18T15:30,minute,93.03,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+280,2011-05-23T15:45,minute,92.95,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+281,2011-07-29T15:10,minute,101.8,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+282,2011-09-29T14:55,minute,104.34,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+283,2012-02-17T15:40,minute,93.08,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+284,2012-04-05T14:40,minute,92.16,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+285,2012-08-23T16:15,minute,111.36,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+286,2012-10-10T16:30,minute,106.44,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+287,2012-12-07T15:45,minute,102.22,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+288,2013-02-07T16:00,minute,100.53,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+289,2013-04-12T14:50,minute,98.25,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+290,2013-06-06T14:20,minute,103.2,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+291,2013-08-15T14:30,minute,106.35,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+292,2013-10-24T19:15,minute,99.99,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+293,2013-12-17T17:35,minute,98.02,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+294,2014-02-07T16:00,minute,94.04,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+295,2014-04-04T15:00,minute,92.44,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+296,2014-06-05T14:30,minute,96.63,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+297,2014-08-07T14:50,minute,101.76,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+298,2014-10-02T14:20,minute,100.29,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+299,2015-02-13T16:15,minute,93.4,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+300,2015-06-04T15:10,minute,90.4,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+301,2015-10-09T14:40,minute,99.23,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+302,2016-02-17T15:50,minute,92.25,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+303,2016-06-09T14:15,minute,86.9,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+304,2016-10-13T14:30,minute,97.13,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+305,2016-12-14T18:00,minute,91.95,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+306,2017-02-09T15:50,minute,89.19,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+307,2017-04-11T17:15,minute,88.17,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+308,2017-06-27T17:40,minute,101.62,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+309,2017-08-10T15:38,minute,98.0,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+310,2017-10-16T13:55,minute,92.5,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+311,2018-02-02T15:01,minute,88.48,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+312,2018-08-17T14:05,minute,104.43,0.01,"GW level, calib electric tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+313,2019-02-26T19:31,minute,90.57,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+314,2019-06-20T21:40,minute,93.18,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+315,2019-11-13T22:08,minute,92.57,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+316,2020-03-05T22:49,minute,88.21,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+317,2020-07-15T22:56,minute,108.35,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+318,2020-11-12T23:13,minute,97.1,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+319,2021-03-26T16:35,minute,90.15,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+320,2021-07-22T15:05,minute,104.72,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+321,2021-11-16T21:14,minute,101.56,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+322,2022-02-15T19:49,minute,95.0,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+323,2022-05-25T20:34,minute,101.99,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+324,2022-08-04T20:42,minute,118.53,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+325,2022-12-06T21:10,minute,105.27,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+326,2023-03-08T19:25,minute,101.71,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+327,2023-06-08T20:21,minute,106.77,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+328,2023-09-29T20:48,minute,114.27,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+329,2023-12-07T20:28,minute,109.59,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+330,2024-02-22T21:53,minute,107.89,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+331,2024-06-27T18:32,minute,118.67,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+332,2024-11-01T18:53,minute,115.91,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+333,2024-12-27T21:24,minute,109.66,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+334,2025-03-18T18:02,minute,106.59,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+335,2025-05-20T19:55,minute,113.9,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+336,2025-08-07T17:36,minute,125.86,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+337,2025-12-11T18:12,minute,106.7,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+338,2026-03-26T18:39,minute,109.2,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+339,2026-07-02T20:29,minute,123.78,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+340,2026-09-17T13:51,minute,116.12,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607BCAB GRNDAW6,Dawson Arkose,264.0,39.5458220507837,-104.826643370999,5876.0
+341,2009-01-10T12:00,minute,135.0,0.01,"GW level, steel tape",['Approved'],,SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+342,2009-03-05T20:00,minute,135.4,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+343,2009-07-15T12:00,minute,132.2,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+344,2009-09-29T16:30,minute,158.38,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+345,2009-11-20T16:10,minute,128.38,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+346,2010-01-13T17:30,minute,120.0,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+347,2010-03-02T16:40,minute,113.44,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+348,2010-05-11T15:20,minute,114.59,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+349,2010-07-06T15:10,minute,134.24,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+350,2010-09-21T15:40,minute,153.5,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+351,2010-11-23T16:00,minute,136.2,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+352,2011-01-27T16:40,minute,122.78,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+353,2011-03-18T16:26,minute,118.35,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+354,2011-05-23T16:30,minute,129.06,0.01,"GW level, calib electric tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+355,2011-07-29T16:10,minute,144.94,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+356,2011-09-29T15:30,minute,147.38,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+357,2011-12-08T17:45,minute,135.87,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+358,2012-02-10T21:20,minute,122.36,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+359,2012-04-05T15:40,minute,130.32,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+360,2012-06-07T17:55,minute,140.48,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+361,2012-08-02T20:20,minute,152.59,0.01,"GW level, calib electric tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+362,2012-10-05T21:55,minute,152.1,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+363,2012-10-05T22:05,minute,152.08,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+364,2012-12-07T17:05,minute,134.72,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+365,2012-12-07T17:20,minute,134.62,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+366,2013-02-07T16:55,minute,134.38,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+367,2013-04-12T15:20,minute,131.24,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+368,2013-06-06T15:05,minute,139.78,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+369,2013-08-15T16:40,minute,153.28,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+370,2013-08-15T16:50,minute,153.05,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+371,2013-10-24T16:40,minute,135.97,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+372,2013-10-24T17:15,minute,135.88,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+373,2013-12-13T19:50,minute,128.34,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+374,2013-12-13T19:55,minute,128.34,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+375,2014-02-06T19:25,minute,125.57,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+376,2014-04-03T19:10,minute,124.34,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+377,2014-04-03T19:20,minute,124.33,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+378,2014-06-05T15:20,minute,135.09,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+379,2014-08-07T15:45,minute,147.32,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+380,2014-10-02T15:15,minute,141.53,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+381,2014-12-09T20:55,minute,129.44,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+382,2015-02-13T17:05,minute,126.18,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+383,2015-06-03T20:15,minute,122.41,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+384,2015-10-09T15:50,minute,135.54,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+385,2016-02-25T19:10,minute,118.08,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+386,2016-02-25T19:15,minute,118.08,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+387,2016-05-31T20:30,minute,118.08,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+388,2016-10-10T20:20,minute,141.68,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+389,2016-10-10T20:30,minute,141.68,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+390,2016-12-14T20:50,minute,132.79,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+391,2017-02-06T20:20,minute,128.04,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+392,2017-04-14T15:05,minute,129.97,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+393,2017-06-27T17:15,minute,146.31,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+394,2017-08-10T16:40,minute,147.6,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+395,2017-10-16T14:55,minute,139.89,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+396,2018-02-02T16:01,minute,131.15,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+397,2018-06-14T16:33,minute,149.52,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+398,2018-08-24T18:10,minute,154.91,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+399,2018-10-17T16:23,minute,147.9,0.01,"GW level, calib electric tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+400,2019-02-25T19:26,minute,131.12,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+401,2019-06-21T20:31,minute,135.95,0.01,"GW level, calib electric tape",['Approved'],"['Above', 'Pumping']",SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+402,2019-10-23T20:19,minute,135.54,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+403,2020-02-05T22:25,minute,124.81,0.01,"GW level, calib electric tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+404,2020-06-19T22:53,minute,141.07,0.01,"GW level, calib electric tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+405,2021-03-25T16:50,minute,128.06,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+406,2021-08-05T21:09,minute,156.1,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+407,2021-11-18T17:44,minute,145.85,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+408,2022-02-15T19:09,minute,138.57,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+409,2022-05-25T19:49,minute,148.26,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+410,2022-08-04T19:45,minute,172.42,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+411,2022-12-06T16:02,minute,154.8,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+412,2023-03-08T20:10,minute,148.5,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+413,2023-06-08T19:42,minute,156.74,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+414,2023-09-29T18:57,minute,170.83,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+415,2023-12-07T20:02,minute,161.27,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+416,2024-02-22T19:30,minute,158.65,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+417,2024-06-27T18:49,minute,175.2,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+418,2024-11-01T17:49,minute,171.18,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+419,2024-12-27T20:22,minute,164.51,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+420,2025-03-18T19:09,minute,162.34,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+421,2025-05-20T16:41,minute,169.87,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+422,2025-08-07T18:14,minute,186.19,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+423,2025-12-11T17:57,minute,160.98,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+424,2026-03-26T18:13,minute,163.36,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+425,2026-07-02T19:57,minute,177.27,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+426,2026-09-10T18:33,minute,176.39,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607BDAB GRNDEV3,Denver Formation,463.0,39.5477305555556,-104.823097222222,5864.18
+427,2009-01-17T12:00,minute,76.5,0.01,"GW level, steel tape",['Approved'],,SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+428,2009-03-05T17:50,minute,74.9,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+429,2009-07-15T12:00,minute,84.54,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+430,2009-09-29T15:15,minute,82.65,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+431,2009-11-20T15:30,minute,82.06,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+432,2010-01-13T16:30,minute,74.89,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+433,2010-03-02T17:30,minute,75.25,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+434,2010-07-06T14:15,minute,79.45,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+435,2010-09-21T14:45,minute,92.78,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+436,2010-11-23T15:15,minute,84.6,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+437,2011-01-27T15:27,minute,82.23,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+438,2011-03-18T15:10,minute,79.91,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+439,2011-05-23T15:20,minute,78.84,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+440,2011-07-29T14:50,minute,88.08,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+441,2011-09-29T14:40,minute,91.97,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+442,2012-02-17T15:20,minute,79.51,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+443,2012-04-05T14:20,minute,78.1,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+444,2012-08-23T15:45,minute,101.7,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+445,2012-10-10T16:10,minute,98.56,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+446,2012-12-07T15:30,minute,92.79,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+447,2013-02-07T22:30,minute,88.29,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+448,2013-04-12T14:30,minute,86.64,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+449,2013-06-06T14:00,minute,91.68,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+450,2013-08-15T14:00,minute,96.33,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+451,2013-10-24T20:00,minute,87.84,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+452,2013-12-17T17:15,minute,83.71,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+453,2014-02-07T15:40,minute,83.97,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+454,2014-04-04T14:40,minute,82.69,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+455,2014-06-05T14:15,minute,88.32,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+456,2014-08-07T14:30,minute,93.57,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+457,2014-10-02T14:00,minute,91.77,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+458,2015-02-13T16:00,minute,83.48,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+459,2015-06-04T14:40,minute,81.35,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+460,2015-10-09T14:20,minute,88.92,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+461,2016-02-17T15:30,minute,74.81,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+462,2016-06-09T14:00,minute,76.31,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+463,2016-10-13T14:15,minute,90.44,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+464,2016-12-14T17:40,minute,83.45,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+465,2017-02-09T15:30,minute,79.31,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+466,2017-04-11T16:45,minute,77.15,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+467,2017-06-27T16:40,minute,87.52,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+468,2017-08-10T15:04,minute,89.61,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+469,2017-10-16T13:30,minute,88.37,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+470,2018-02-02T14:32,minute,79.48,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+471,2018-08-24T20:18,minute,92.77,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+472,2019-02-27T20:06,minute,77.23,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+473,2019-06-20T20:28,minute,80.45,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+474,2019-11-13T22:46,minute,78.9,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+475,2020-03-05T23:06,minute,73.1,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+476,2020-07-15T21:13,minute,91.38,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+477,2020-11-12T21:54,minute,84.28,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+478,2021-03-26T17:04,minute,78.67,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+479,2021-07-22T14:28,minute,96.71,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+480,2021-11-16T19:03,minute,89.15,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+481,2022-02-15T20:23,minute,76.29,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+482,2022-05-25T21:17,minute,92.64,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+483,2022-08-04T21:39,minute,106.92,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+484,2022-12-06T21:39,minute,98.98,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+485,2023-03-08T19:52,minute,94.44,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+486,2023-06-08T21:29,minute,104.08,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+487,2023-09-29T21:03,minute,113.48,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+488,2023-12-07T20:57,minute,112.3,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+489,2024-02-22T22:08,minute,109.86,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+490,2024-06-27T18:14,minute,120.56,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+491,2024-11-01T18:38,minute,114.0,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+492,2024-12-27T21:53,minute,102.36,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+493,2025-03-18T18:19,minute,102.39,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+494,2025-05-20T20:10,minute,117.49,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+495,2025-08-07T17:58,minute,127.12,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+496,2025-12-11T18:20,minute,102.44,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+497,2026-03-26T18:50,minute,110.68,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+498,2026-07-02T20:58,minute,134.11,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+499,2026-09-17T14:14,minute,108.24,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607CCBC GRNDEV1,Denver Formation,600.0,39.5380443230333,-104.827476814155,5830.0
+500,2009-01-17T12:00,minute,48.5,0.01,"GW level, steel tape",['Approved'],,SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+501,2009-03-05T15:30,minute,47.7,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+502,2009-07-15T12:00,minute,56.68,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+503,2009-09-29T17:50,minute,55.2,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+504,2009-11-20T19:10,minute,46.0,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+505,2010-01-13T20:20,minute,70.29,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+506,2010-03-02T18:50,minute,65.47,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+507,2010-05-11T17:30,minute,72.5,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+508,2010-07-06T16:30,minute,76.68,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+509,2010-09-21T18:20,minute,91.66,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+510,2010-11-23T17:05,minute,80.45,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+511,2011-01-27T17:45,minute,75.76,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+512,2011-03-18T17:15,minute,73.03,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+513,2011-05-23T17:45,minute,75.93,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+514,2011-07-29T17:20,minute,88.9,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+515,2011-09-29T16:35,minute,94.44,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+516,2012-02-17T17:10,minute,78.38,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+517,2012-04-05T17:00,minute,79.66,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+518,2012-10-10T18:20,minute,93.5,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+519,2012-12-07T19:20,minute,85.1,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+520,2013-02-07T18:30,minute,88.46,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+521,2013-04-12T17:20,minute,80.82,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+522,2013-06-06T17:00,minute,85.5,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+523,2013-08-15T17:50,minute,93.04,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+524,2013-10-25T15:45,minute,81.17,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+525,2013-12-17T19:00,minute,75.48,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+526,2014-02-07T17:50,minute,74.43,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+527,2014-04-04T16:00,minute,73.24,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+528,2014-06-05T17:30,minute,78.22,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+529,2014-08-07T17:30,minute,85.38,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+530,2014-10-02T17:00,minute,85.47,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+531,2015-02-13T18:40,minute,75.18,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+532,2015-06-04T16:40,minute,69.58,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+533,2015-10-09T17:00,minute,82.35,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+534,2016-02-17T17:10,minute,65.29,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+535,2016-06-09T15:30,minute,67.33,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+536,2016-10-13T15:50,minute,87.44,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+537,2016-12-14T19:20,minute,74.92,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+538,2017-02-09T17:30,minute,70.39,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+539,2017-04-11T19:00,minute,69.48,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+540,2017-06-27T19:20,minute,81.0,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+541,2017-08-10T19:54,minute,85.09,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+542,2017-10-16T16:55,minute,83.89,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+543,2018-02-02T18:25,minute,72.23,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+544,2018-08-17T16:55,minute,94.27,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+545,2019-02-26T21:05,minute,72.62,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+546,2019-06-20T20:10,minute,75.8,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+547,2019-11-13T21:09,minute,72.69,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+548,2020-03-05T21:30,minute,66.67,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+549,2020-07-15T20:52,minute,94.88,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+550,2020-11-12T21:34,minute,82.93,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+551,2021-03-26T17:18,minute,73.71,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+552,2021-07-21T20:41,minute,62.74,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+553,2021-11-16T18:37,minute,87.62,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+554,2022-02-15T18:05,minute,85.94,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+555,2022-05-25T19:23,minute,115.76,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+556,2022-08-04T19:23,minute,110.65,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+557,2022-12-06T20:01,minute,99.56,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+558,2023-03-08T18:54,minute,94.11,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+559,2023-06-08T19:10,minute,102.84,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+560,2023-09-29T19:35,minute,118.13,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+561,2023-12-07T19:44,minute,109.37,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+562,2024-02-22T20:53,minute,107.57,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+563,2024-06-27T17:58,minute,118.58,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+564,2024-11-01T17:38,minute,117.59,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+565,2024-12-27T20:05,minute,116.29,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+566,2025-03-18T17:27,minute,107.11,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+567,2025-05-20T19:32,minute,118.45,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+568,2025-08-07T16:56,minute,134.05,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+569,2025-12-11T17:35,minute,103.42,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+570,2026-03-26T18:03,minute,107.79,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+571,2026-07-02T17:48,minute,124.56,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+572,2026-09-17T14:26,minute,122.22,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DBAC GRNDEV2,Denver Formation,496.0,39.5424887644226,-104.818587550944,5860.0
+573,2009-01-10T12:00,minute,103.4,0.01,"GW level, steel tape",['Approved'],,SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+574,2009-03-05T22:00,minute,102.73,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+575,2009-07-15T12:00,minute,102.3,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+576,2009-09-29T19:30,minute,97.95,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+577,2009-11-20T20:00,minute,101.06,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+578,2010-01-13T18:30,minute,100.25,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+579,2010-03-02T18:50,minute,99.9,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+580,2010-05-11T20:00,minute,99.61,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+581,2010-07-06T16:20,minute,103.14,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+582,2010-09-21T18:05,minute,101.93,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+583,2010-11-23T17:20,minute,102.61,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+584,2011-01-27T18:20,minute,101.16,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+585,2011-03-18T18:50,minute,100.74,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+586,2011-05-23T18:45,minute,100.7,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+587,2011-07-29T18:20,minute,101.76,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+588,2012-10-10T19:10,minute,100.7,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+589,2012-12-07T20:20,minute,102.38,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+590,2013-02-07T19:30,minute,102.31,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+591,2013-04-12T18:15,minute,101.67,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+592,2013-06-06T17:50,minute,101.86,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+593,2013-08-15T18:30,minute,103.06,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+594,2013-10-25T16:20,minute,101.64,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+595,2013-12-17T19:35,minute,100.03,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+596,2014-02-07T19:15,minute,99.61,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+597,2014-04-04T16:40,minute,99.49,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+598,2014-06-05T18:00,minute,99.87,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+599,2014-08-07T17:50,minute,100.66,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+600,2014-10-02T17:30,minute,100.5,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+601,2015-02-13T19:30,minute,98.66,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+602,2015-06-04T17:20,minute,97.99,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+603,2015-10-09T17:30,minute,98.34,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+604,2016-02-17T17:50,minute,95.45,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+605,2016-06-09T16:00,minute,94.6,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+606,2016-10-13T16:30,minute,96.16,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+607,2016-12-14T20:00,minute,94.85,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+608,2017-02-09T18:00,minute,94.0,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+609,2017-04-14T16:50,minute,93.94,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+610,2017-06-27T19:40,minute,95.24,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+611,2017-08-10T20:30,minute,96.17,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+612,2017-10-16T17:50,minute,96.22,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+613,2018-02-02T19:02,minute,94.91,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+614,2018-08-17T17:12,minute,97.09,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+615,2019-02-26T22:55,minute,94.98,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+616,2019-06-20T16:56,minute,95.09,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+617,2019-11-13T18:53,minute,94.62,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+618,2020-03-05T19:16,minute,93.36,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+619,2020-07-15T19:57,minute,94.07,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+620,2020-11-12T20:36,minute,93.3,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+621,2021-03-25T21:45,minute,91.59,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+622,2021-07-21T18:10,minute,92.17,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+623,2021-11-16T17:53,minute,90.94,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+624,2022-02-15T17:16,minute,89.71,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+625,2022-05-25T16:47,minute,90.37,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+626,2022-08-04T17:53,minute,92.27,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+627,2022-12-06T18:43,minute,91.57,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+628,2023-03-08T18:08,minute,91.2,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+629,2023-06-08T17:24,minute,91.8,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+630,2023-09-29T17:42,minute,91.76,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+631,2023-12-07T18:44,minute,90.39,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+632,2024-02-22T21:12,minute,90.01,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+633,2024-06-27T17:29,minute,90.75,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+634,2024-11-01T17:22,minute,90.95,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+635,2024-12-27T19:38,minute,90.11,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+636,2025-03-18T17:11,minute,88.99,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+637,2025-05-20T19:07,minute,90.05,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+638,2025-08-07T16:34,minute,91.66,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+639,2025-12-11T17:19,minute,89.82,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+640,2026-03-26T17:45,minute,91.94,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+641,2026-07-02T18:21,minute,97.59,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+642,2026-09-17T13:29,minute,93.07,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DBDD GRNDAW2,Dawson Arkose,160.0,39.5399887855197,-104.817198636434,5885.0
+643,2009-01-10T12:00,minute,98.3,0.01,"GW level, steel tape",['Approved'],,SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+644,2009-03-05T17:00,minute,101.02,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+645,2009-07-15T12:00,minute,101.66,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+646,2009-09-29T19:20,minute,101.2,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+647,2009-11-20T19:20,minute,99.16,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+648,2010-01-13T19:20,minute,98.32,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+649,2010-03-02T19:10,minute,98.09,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+650,2010-07-06T17:15,minute,98.77,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+651,2010-09-21T17:45,minute,103.1,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+652,2010-11-23T17:40,minute,100.77,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+653,2011-01-27T18:40,minute,99.15,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+654,2011-03-18T19:10,minute,98.8,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+655,2011-05-23T19:00,minute,98.73,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+656,2011-07-29T18:30,minute,99.99,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+657,2011-09-29T17:25,minute,101.02,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+658,2012-02-17T18:10,minute,98.63,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+659,2012-04-05T18:10,minute,98.29,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+660,2012-08-23T18:50,minute,101.32,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+661,2012-10-10T19:40,minute,100.97,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+662,2012-12-07T20:40,minute,100.27,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+663,2013-02-07T19:45,minute,100.16,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+664,2013-04-12T18:30,minute,99.58,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+665,2013-06-06T18:15,minute,100.15,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+666,2013-08-15T18:50,minute,101.16,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+667,2013-10-25T16:30,minute,99.55,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+668,2013-12-17T20:00,minute,98.25,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+669,2014-02-07T19:20,minute,97.54,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+670,2014-06-05T18:30,minute,97.98,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+671,2014-08-07T18:10,minute,98.93,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+672,2014-10-02T17:50,minute,98.55,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+673,2015-02-13T19:40,minute,96.7,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+674,2015-06-04T17:40,minute,96.04,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+675,2015-10-09T17:40,minute,96.22,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+676,2016-02-17T18:00,minute,93.31,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+677,2016-06-09T16:15,minute,92.54,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+678,2016-10-13T16:50,minute,93.99,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+679,2016-12-14T20:20,minute,92.58,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+680,2017-02-09T18:40,minute,91.72,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+681,2017-04-14T17:00,minute,91.56,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+682,2017-06-27T20:00,minute,93.22,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+683,2017-08-10T20:54,minute,94.04,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+684,2017-10-16T18:05,minute,93.97,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+685,2018-02-02T19:26,minute,92.59,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+686,2018-08-17T17:36,minute,94.97,0.01,"GW level, calib electric tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+687,2019-03-08T18:00,minute,92.38,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+688,2019-06-20T16:22,minute,94.75,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+689,2019-11-13T18:44,minute,94.09,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+690,2020-03-05T18:55,minute,92.85,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+691,2020-07-15T19:43,minute,93.69,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+692,2020-11-12T20:17,minute,92.6,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+693,2021-03-25T21:21,minute,90.92,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+694,2021-07-21T17:43,minute,91.74,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+695,2021-11-16T18:06,minute,90.21,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+696,2022-02-15T17:05,minute,88.97,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+697,2022-05-25T16:32,minute,89.75,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+698,2022-12-06T18:35,minute,90.92,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+699,2023-03-08T18:00,minute,90.58,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+700,2023-06-08T17:12,minute,91.33,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+701,2023-09-29T18:38,minute,91.37,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+702,2023-12-07T18:33,minute,89.9,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+703,2024-02-22T19:20,minute,89.38,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+704,2024-06-27T17:21,minute,90.39,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+705,2024-11-01T16:40,minute,90.44,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+706,2024-12-27T19:21,minute,89.11,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+707,2025-03-18T17:01,minute,88.43,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+708,2025-05-20T19:00,minute,89.61,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+709,2025-08-07T16:24,minute,91.18,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+710,2025-12-11T17:12,minute,89.25,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+711,2026-03-26T17:40,minute,89.74,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+712,2026-07-02T19:07,minute,92.1,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+713,2026-09-17T13:22,minute,92.38,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DCAA GRNDEV7,Denver Formation,402.0,39.5388776819116,-104.81719864791,5855.0
+714,2009-01-10T12:00,minute,110.1,0.01,"GW level, steel tape",['Approved'],,SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+715,2009-03-05T21:30,minute,115.75,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+716,2009-07-15T12:00,minute,130.22,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+717,2009-09-29T19:10,minute,125.8,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+718,2009-11-20T19:40,minute,114.52,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+719,2010-01-13T19:00,minute,120.1,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+720,2010-03-02T19:15,minute,120.93,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+721,2010-05-11T20:20,minute,122.3,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+722,2010-07-06T17:25,minute,136.39,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+723,2010-09-21T17:30,minute,139.7,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+724,2010-11-23T17:55,minute,129.97,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+725,2011-01-27T18:55,minute,126.86,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+726,2011-03-18T19:35,minute,127.59,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+727,2011-05-23T19:10,minute,121.69,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+728,2011-07-29T21:15,minute,147.4,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+729,2011-09-29T17:40,minute,142.03,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+730,2012-02-17T18:40,minute,123.46,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+731,2012-04-05T18:10,minute,120.75,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+732,2012-08-23T19:10,minute,148.97,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+733,2012-10-10T19:50,minute,145.62,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+734,2012-12-07T21:00,minute,139.0,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+735,2013-02-07T20:00,minute,134.89,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+736,2013-04-12T18:45,minute,132.82,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+737,2013-06-06T18:30,minute,138.97,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+738,2013-08-15T19:15,minute,142.75,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+739,2013-10-25T16:45,minute,131.98,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+740,2013-12-17T20:15,minute,128.8,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+741,2014-02-07T19:30,minute,130.98,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+742,2014-04-04T17:20,minute,129.6,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+743,2014-06-05T18:45,minute,137.45,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+744,2014-08-07T18:20,minute,143.15,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+745,2014-10-02T18:00,minute,140.97,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+746,2015-02-13T20:00,minute,130.4,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+747,2015-06-04T18:20,minute,128.75,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+748,2015-10-09T17:50,minute,136.65,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+749,2016-02-17T18:10,minute,121.34,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+750,2016-06-09T16:30,minute,123.8,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+751,2016-10-13T17:10,minute,139.36,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+752,2016-12-14T20:30,minute,130.64,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+753,2017-02-09T19:00,minute,125.73,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+754,2017-04-14T17:20,minute,127.64,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+755,2017-06-27T21:20,minute,134.0,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+756,2017-08-11T15:04,minute,135.42,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+757,2017-10-16T18:25,minute,134.18,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+758,2018-02-02T19:50,minute,123.82,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+759,2018-08-17T17:52,minute,137.8,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+760,2019-02-26T23:25,minute,118.37,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+761,2019-06-20T16:36,minute,120.78,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+762,2019-11-13T18:32,minute,121.02,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+763,2020-03-05T18:42,minute,114.66,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+764,2020-07-15T19:33,minute,133.07,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+765,2020-11-12T18:28,minute,125.47,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+766,2021-03-25T20:56,minute,121.27,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+767,2021-07-21T17:29,minute,147.61,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+768,2021-11-16T18:21,minute,131.47,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+769,2022-02-15T16:54,minute,126.01,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+770,2022-05-25T16:15,minute,134.29,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+771,2022-08-04T16:48,minute,151.55,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+772,2022-12-06T18:25,minute,143.07,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+773,2023-03-08T17:50,minute,139.25,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+774,2023-06-08T17:05,minute,150.44,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+775,2023-09-29T18:22,minute,159.24,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+776,2023-12-07T18:25,minute,155.95,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+777,2024-02-22T19:06,minute,153.51,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+778,2024-06-27T17:13,minute,165.98,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+779,2024-11-01T16:51,minute,159.74,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+780,2024-12-27T19:15,minute,155.13,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+781,2025-03-18T16:48,minute,148.55,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+782,2025-05-20T18:50,minute,160.28,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+783,2025-08-07T16:14,minute,174.75,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+784,2025-12-11T17:03,minute,148.0,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+785,2026-03-26T17:30,minute,156.68,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+786,2026-07-02T18:52,minute,166.98,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+787,2026-09-17T13:15,minute,160.89,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DCDA GRNDAW3,Dawson Arkose,304.0,39.5374888024016,-104.817198662255,5895.0
+788,2010-05-11T19:00,minute,118.87,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+789,2010-07-06T16:40,minute,97.8,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+790,2010-09-21T17:55,minute,136.07,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+791,2010-11-23T17:10,minute,125.51,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+792,2011-01-27T18:05,minute,123.57,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+793,2011-03-18T18:25,minute,122.06,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+794,2011-05-23T18:05,minute,120.49,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+795,2011-07-29T17:40,minute,131.26,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+796,2011-09-29T17:00,minute,135.34,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+797,2012-02-17T17:30,minute,121.29,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+798,2012-04-05T17:20,minute,119.42,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+799,2012-08-23T17:50,minute,145.84,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+800,2012-10-10T18:40,minute,138.98,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+801,2012-12-07T19:40,minute,133.47,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+802,2013-02-07T19:00,minute,130.16,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+803,2013-04-12T17:45,minute,127.49,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+804,2013-06-06T17:15,minute,134.34,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+805,2013-08-15T18:15,minute,138.66,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+806,2013-10-25T16:00,minute,128.21,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+807,2013-12-17T19:30,minute,124.61,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+808,2014-02-07T18:10,minute,125.28,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+809,2014-04-04T16:20,minute,124.0,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+810,2014-06-05T17:45,minute,130.88,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+811,2014-08-07T17:40,minute,137.84,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+812,2014-10-02T17:20,minute,133.69,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+813,2015-02-13T19:20,minute,123.94,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+814,2015-06-04T16:50,minute,122.56,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+815,2015-10-09T17:10,minute,131.14,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+816,2016-02-17T17:30,minute,116.26,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+817,2016-06-09T15:40,minute,117.04,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+818,2016-10-13T16:10,minute,131.89,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+819,2016-12-14T19:40,minute,123.92,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+820,2017-02-09T17:50,minute,120.2,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+821,2017-04-14T16:40,minute,119.44,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+822,2017-06-27T19:30,minute,130.98,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+823,2017-08-10T20:10,minute,130.6,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+824,2017-10-16T17:15,minute,128.94,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+825,2018-02-02T18:45,minute,119.93,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+826,2018-08-24T19:50,minute,135.14,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+827,2019-02-26T22:32,minute,117.38,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+828,2019-06-20T16:08,minute,121.33,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+829,2019-11-13T19:13,minute,119.57,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+830,2020-03-05T19:34,minute,113.63,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+831,2020-07-15T20:10,minute,131.9,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+832,2020-11-12T20:58,minute,123.17,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+833,2021-03-25T22:12,minute,118.87,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+834,2021-07-21T18:30,minute,133.84,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+835,2021-11-16T17:38,minute,128.96,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+836,2022-02-15T17:34,minute,125.65,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+837,2022-05-25T17:10,minute,134.09,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+838,2022-08-04T18:28,minute,150.64,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+839,2022-12-06T18:53,minute,140.92,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+840,2023-03-08T18:19,minute,137.02,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+841,2023-06-08T17:44,minute,146.07,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+842,2023-09-29T17:26,minute,158.3,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+843,2023-12-07T18:55,minute,152.64,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+844,2024-02-22T21:23,minute,148.77,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+845,2024-06-27T17:40,minute,163.2,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+846,2024-11-01T17:30,minute,156.29,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+847,2024-12-27T19:48,minute,153.59,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+848,2025-03-18T17:20,minute,153.27,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+849,2025-05-20T19:13,minute,157.34,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+850,2025-08-07T16:44,minute,171.08,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+851,2025-12-11T17:24,minute,142.79,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+852,2026-03-26T17:53,minute,151.05,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+853,2026-07-02T18:25,minute,168.55,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+854,2026-09-17T13:38,minute,153.89,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DD GRNDAW1B,Dawson Arkose,330.0,39.5402777777778,-104.816916666667,5887.0
+855,2009-01-10T12:00,minute,99.1,0.01,"GW level, steel tape",['Approved'],,SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+856,2009-03-05T16:00,minute,117.77,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+857,2009-07-15T12:00,minute,108.03,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+858,2009-09-29T18:50,minute,128.0,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+859,2009-11-20T17:20,minute,116.33,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+860,2010-01-13T19:30,minute,117.6,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+861,2010-03-02T20:30,minute,117.7,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+862,2010-05-11T18:10,minute,121.14,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+863,2010-07-06T18:45,minute,125.44,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+864,2010-09-21T19:20,minute,111.26,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+865,2010-11-23T20:00,minute,125.0,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+866,2011-01-27T19:55,minute,122.94,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+867,2011-03-18T20:00,minute,123.61,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+868,2011-05-23T19:45,minute,127.29,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+869,2011-07-29T18:50,minute,133.84,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+870,2011-09-29T17:50,minute,139.79,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+871,2012-02-17T19:10,minute,121.36,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+872,2012-04-05T18:40,minute,106.32,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+873,2012-08-23T19:30,minute,149.81,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+874,2012-10-10T20:20,minute,139.25,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+875,2012-12-07T21:30,minute,132.92,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+876,2013-02-07T20:15,minute,129.34,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+877,2013-04-12T19:00,minute,127.19,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+878,2013-06-06T18:50,minute,138.63,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+879,2013-08-15T19:30,minute,143.65,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+880,2013-10-25T17:15,minute,128.51,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+881,2013-12-17T20:30,minute,124.59,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+882,2014-02-07T19:50,minute,124.45,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+883,2014-04-04T17:50,minute,123.12,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+884,2014-06-05T19:00,minute,133.92,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+885,2014-08-07T18:30,minute,145.3,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+886,2014-10-02T18:30,minute,134.99,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+887,2015-02-13T20:20,minute,123.44,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+888,2015-06-04T18:50,minute,122.93,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+889,2015-10-09T18:10,minute,132.51,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+890,2016-02-17T19:00,minute,115.07,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+891,2016-06-09T16:40,minute,116.84,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+892,2016-10-13T17:30,minute,131.93,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+893,2016-12-16T19:30,minute,122.76,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+894,2017-02-09T19:30,minute,118.72,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+895,2017-04-14T17:30,minute,120.93,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+896,2017-06-27T20:50,minute,133.82,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+897,2017-08-11T15:30,minute,130.49,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+898,2017-10-16T18:45,minute,128.09,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+899,2018-02-02T20:18,minute,119.46,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+900,2018-08-17T19:47,minute,140.37,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+901,2019-02-27T19:35,minute,116.84,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+902,2019-06-20T18:59,minute,120.98,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+903,2019-11-13T18:14,minute,119.74,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+904,2020-03-05T18:25,minute,113.28,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+905,2020-07-15T18:10,minute,136.87,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+906,2020-11-12T17:56,minute,122.04,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+907,2021-03-25T19:58,minute,117.14,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+908,2021-07-21T17:02,minute,138.4,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+909,2021-11-16T17:12,minute,127.56,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+910,2022-02-15T16:34,minute,124.68,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+911,2022-05-25T16:05,minute,132.14,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+912,2022-08-04T16:23,minute,109.96,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+913,2022-12-06T18:12,minute,137.99,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+914,2023-03-08T17:39,minute,133.77,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+915,2023-06-08T16:31,minute,140.85,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+916,2023-09-29T17:06,minute,159.36,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+917,2023-12-07T18:09,minute,144.99,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+918,2024-02-22T18:48,minute,141.19,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+919,2024-06-27T17:02,minute,164.48,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+920,2024-11-01T16:19,minute,150.34,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+921,2024-12-27T18:49,minute,151.37,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+922,2025-03-18T16:35,minute,133.0,0.01,"GW level, calib steel tape",['Approved'],"['Above', 'Pumping']",SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+923,2025-05-20T18:38,minute,146.19,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+924,2025-08-07T15:37,minute,165.39,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+925,2025-12-11T16:28,minute,131.82,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+926,2026-03-26T17:20,minute,135.59,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+927,2026-07-02T17:42,minute,156.07,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+928,2026-09-10T19:50,minute,149.59,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606607DDAB GRNDAW1,Dawson Arkose,357.0,39.5402665706923,-104.814142964957,5895.0
+929,2010-05-11T21:50,minute,33.0,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+930,2010-07-06T20:45,minute,37.4,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+931,2010-09-21T20:50,minute,41.93,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+932,2010-11-23T21:30,minute,39.71,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+933,2011-01-27T20:40,minute,39.32,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+934,2011-03-18T21:45,minute,38.39,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+935,2011-05-23T20:55,minute,37.46,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+936,2011-07-29T20:00,minute,44.24,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+937,2011-09-29T19:20,minute,45.83,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+938,2012-02-17T20:10,minute,37.52,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+939,2012-04-05T20:40,minute,36.02,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+940,2012-08-23T21:15,minute,46.67,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+941,2012-10-10T22:00,minute,53.6,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+942,2012-12-07T22:45,minute,43.91,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+943,2013-02-07T22:00,minute,42.38,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+944,2013-04-12T20:30,minute,40.7,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+945,2013-06-06T20:30,minute,41.43,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+946,2013-08-15T20:45,minute,44.68,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+947,2013-10-25T19:00,minute,41.46,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+948,2013-12-17T21:45,minute,38.34,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+949,2014-02-07T21:10,minute,36.99,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+950,2014-04-04T19:20,minute,35.37,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+951,2014-06-05T20:40,minute,36.1,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+952,2014-08-07T20:50,minute,42.94,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+953,2014-10-02T20:40,minute,40.07,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+954,2015-02-13T22:10,minute,34.04,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+955,2015-06-04T20:20,minute,31.97,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+956,2015-10-09T19:10,minute,38.93,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+957,2016-02-17T19:50,minute,31.25,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+958,2016-06-09T18:00,minute,31.78,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+959,2016-10-13T18:20,minute,38.93,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+960,2016-12-16T21:10,minute,35.99,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+961,2017-02-09T20:30,minute,34.16,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+962,2017-04-14T19:10,minute,36.85,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+963,2017-06-28T19:00,minute,40.28,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+964,2017-08-11T17:10,minute,40.36,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+965,2017-10-16T21:15,minute,39.57,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+966,2018-06-14T19:18,minute,44.4,0.01,"GW level, steel tape",['Approved'],"['Above', 'Pumping']",SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+967,2018-08-24T19:19,minute,45.67,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+968,2019-02-27T20:53,minute,36.51,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+969,2019-06-20T15:53,minute,36.42,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+970,2019-11-13T16:11,minute,38.59,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+971,2020-03-05T15:51,minute,30.75,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+972,2020-07-15T15:05,minute,48.9,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+973,2020-11-12T15:41,minute,43.12,0.01,"GW level, steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+974,2021-03-25T15:30,minute,37.67,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+975,2021-07-21T15:04,minute,44.57,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+976,2021-11-16T15:35,minute,42.81,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+977,2022-02-15T15:08,minute,41.23,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+978,2022-05-25T14:02,minute,49.19,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+979,2022-08-04T14:36,minute,48.7,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+980,2022-12-06T17:02,minute,48.76,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+981,2023-03-08T16:03,minute,46.31,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+982,2023-06-08T14:55,minute,46.61,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+983,2023-09-29T14:24,minute,48.7,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+984,2023-12-07T16:48,minute,49.02,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+985,2024-02-22T18:03,minute,46.41,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+986,2024-06-27T15:42,minute,50.15,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+987,2024-11-01T15:40,minute,53.74,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+988,2024-12-27T17:17,minute,47.91,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+989,2025-03-18T15:23,minute,50.73,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+990,2025-05-20T17:15,minute,47.59,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+991,2025-08-07T14:38,minute,65.68,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+992,2025-12-11T15:47,minute,48.37,0.01,"GW level, calib steel tape",['Approved'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+993,2026-03-26T16:08,minute,48.99,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+994,2026-07-02T16:33,minute,56.91,0.01,"GW level, calib steel tape",['Provisional'],"['Above', 'Pumping']",SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0
+995,2026-09-10T17:24,minute,58.19,0.01,"GW level, calib steel tape",['Provisional'],['Static'],SC00606608BB GRNDAW1A,Dawson Arkose,187.0,39.5505,-104.813527777778,5804.0

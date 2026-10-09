@@ -13,7 +13,7 @@ from math import erfc, sqrt
 # --- Configuration ---
 DEFAULT_CSV_PATH = os.environ.get(
     "GVW_CSV_PATH",
-    os.path.join(os.path.dirname(__file__), "well_data_df_10.07.2025.csv"),
+    os.path.join(os.path.dirname(__file__), "well_data_df_10.05.2026.csv"),
 )
 AQUIFER_COLORS = {"Dawson Arkose": "#e74c3c", "Denver Formation": "#3498db"}
 
